@@ -1,6 +1,400 @@
 {
+    "Layout": {
+        "Payez-vous trop cher pour l'assurance de vos camions ?": "Payez-vous trop cher pour <b>l'assurance</b> de vos <b>camions</b> ?",
+        "Découvrir notre offre": "Découvrir notre offre",
+        "Abonnez-vous pour rester à l'écoute des nouvelles nouveautés": "Abonnez-vous pour rester à l'écoute des nouvelles nouveautés",
+        "Entrez votre adresse email": "Entrez votre adresse email",
+        "S'abonner": "S'abonner",
+        "Plateforme digitale de mise en relation entre expéditeurs et transporteurs de marchandises": "Plateforme digitale de mise en relation entre expéditeurs et transporteurs de marchandises, visant l’optimalisation des retours à vide des camions",
+        "Accès Rapide": "Accès Rapide",
+        "Contact": "Contact",
+        "Suivez nous": "Suivez nous",
+        "Tous droits réservés": "© {year} Tous droits réservés",
+        "menu-items": [
+            {
+                "title": "Chargeurs",
+                "link": "/senders"
+            },
+            {
+                "title": "Transporteurs",
+                "link": "/transporters"
+            },
+            {
+                "title": "Commissionnaires",
+                "link": "/"
+            },
+            {
+                "title": "Services",
+                "link": "/",
+                "subItems": [
+                    {
+                        "title": "Cloudfret Green",
+                        "link": "/"
+                    },
+                    {
+                        "title": "Freight Forwarding",
+                        "link": "/"
+                    },
+                    {
+                        "title": "Assurance",
+                        "link": "/"
+                    },
+                    {
+                        "title": "Offre Carburant Cloudfret",
+                        "link": "/"
+                    }
+                ]
+            },
+            {
+                "title": "Blog",
+                "link": "/"
+            }
+        ],
+        "Rejoingez la communauté": "Rejoingez la communauté"
+    },
+    "Headings": {
+        "Le Futur du Transport Routier commence ici": "Le Futur du Transport Routier<br></br><mark>commence ici</mark>",
+        "Votre réseau intelligent de fret #1 au Maroc": "Votre réseau <mark>intelligent</mark> de fret #1 au Maroc",
+        "CloudFret transforme l'industrie du transport": "CloudFret <mark>transforme</mark> l'industrie du transport",
+        "Cloudfret vous offre des solutions durables": "Cloudfret vous offre des <mark>solutions durables</mark>",
+        "L'Application Mobile Cloudfret": "<mark>L'Application</mark> Mobile Cloudfret",
+        "Expédiez avec Cloudfret": "<mark>Expédiez</mark> avec Cloudfret",
+        "Transportez avec Cloudfret": "<mark>Transportez</mark> avec Cloudfret",
+        "Ce que nos partenaires disent de Cloudfret": "Ce que nos partenaires disent de <mark>Cloudfret</mark>",
+        "Certifications ISO": "Certifications <mark>ISO</mark>",
+        "Blog": "Blog",
+        "Ils nous font confiance": "Ils nous font <mark>confiance</mark>",
+        "La Bourse de Fret Idéale pour les Transporteurs": "La Bourse de Fret <mark>Idéale</mark> pour les Transporteurs",
+        "Des fonctionnalités conçues pour optimiser vos opérations": "Des <mark>fonctionnalités</mark> conçues pour optimiser vos opérations",
+        "Opportunités de transport instantanées à saisir": "Opportunités de transport <mark>instantanées</mark> à saisir",
+        "Lancez-vous Maintenant!": "Lancez-vous Maintenant!",
+        "+4000 Transporteurs de Confiance à Votre Service!": "<mark>+4000 Transporteurs</mark><br></br>de Confiance à Votre Service!",
+        "Retour d'expérience de nos partenaires transporteurs": "Retour d'expérience de nos partenaires <mark>transporteurs</mark>",
+        "Retour d'expérience de nos partenaires Expéditeurs": "Retour d'expérience de nos partenaires <mark>Expéditeurs</mark>"
+    },
     "Home": {
-        "Votre réseau intelligent": "Votre réseau intelligent de fret #1 au Maroc",
-        "Simplifiez votre logistique": "Simplifiez votre logistique grâce à une bourse de fret innovante. Réduisez vos coûts, éliminez les trajets à vide et trouvez rapidement des partenaires fiables parmi un réseau de transporteurs et chargeurs marocains et internationaux."
+        "Simplifiez votre logistique": "Simplifiez votre logistique grâce à une bourse de fret innovante. Réduisez vos coûts, éliminez les trajets à vide et trouvez rapidement des partenaires fiables parmi un réseau de transporteurs et chargeurs marocains et internationaux.",
+        "Rejoignez un réseau qui connecte des milliers de professionnels du transport": "Rejoignez un réseau qui connecte des milliers de professionnels du transport",
+        "Transporteurs": "Transporteurs",
+        "Chargeurs": "Chargeurs",
+        "Minimisez l'inutilisé, Maximiser les revenus": "<mark>Minimisez l'inutilisé,</mark>Maximiser les revenus",
+        "Plus de choix, Moins de soucis": "<mark>Plus de choix,</mark>Moins de soucis",
+        "Réseau fiable de clients et de partenaires": "Réseau fiable de clients et de partenaires",
+        "Paiements rapides et sécurisés": "Paiements rapides et sécurisés",
+        "Carburant à prix réduit et assurances sur-mesure à des tarifs imbattables": "Carburant à prix réduit et assurances sur-mesure à des tarifs imbattables",
+        "Accès à un réseau de plus de 4000 transporteurs et 16000 remorques": "Accès à un réseau de plus de 4000 transporteurs et 16.000 remorques",
+        "Gestion des expéditions en temps réel": "Gestion des expéditions en temps réel",
+        "Tarifs compétitifs": "Tarifs compétitifs",
+        "Rejoignez le réseau des transporteurs": "Rejoignez le réseau des transporteurs",
+        "Rejoignez le réseau des chargeurs": "Rejoignez le réseau des chargeurs",
+        "Grâce à une marketplace unique, flexible et à l'ère du digital": "Grâce à une marketplace unique, flexible et à l'ère du digital",
+        "advantages-list": [
+            {
+                "icon": "/images/home/transform-1.svg",
+                "text": "100% de disponibilité"
+            },
+            {
+                "icon": "/images/home/transform-2.svg",
+                "text": "Simplicité et rapidité"
+            },
+            {
+                "icon": "/images/home/transform-3.svg",
+                "text": "Suivi en temps réel"
+            },
+            {
+                "icon": "/images/home/transform-4.svg",
+                "text": "Assistance client 24/7"
+            }
+        ],
+        "Notre mission :": "Notre mission : éliminer les retours à vide. En mettant en œuvre des solutions durables telles que notre application mobile, le groupage, et la mobilité électrique, nous optimisons l'efficacité du transport tout en réduisant considérablement son empreinte carbone.",
+        "Passez au mode durable dès aujourd'hui": "Passez au mode durable dès aujourd'hui",
+        "Met en relation les expéditeurs et les transporteurs": "Met en relation les expéditeurs et les transporteurs afin d'économiser les coûts pour les expéditeurs, d'augmenter les revenus des transporteurs tout en réduisant les émissions de CO2 dans l'environnement.",
+        "Trouvez votre transporteur fiable en moins de 3 minutes": "Trouvez votre transporteur fiable en moins de <mark>3 minutes</mark>",
+        "Estimation des coûts immédiate grâce à la fonctionnalité Bidding": "Estimation des coûts immédiate grâce à la fonctionnalité <b>Bidding</b>",
+        "Notifications instantanées des transporteurs correspondant à vos demandes grâce à la fonctionnalité Matching Automatique": "Notifications instantanées des transporteurs correspondant à vos demandes grâce à la fonctionnalité Matching Automatique",
+        "Contrôle total sur vos cargaisons à chaque étape du trajet grâce au Suivi en temps réel via GPS": "Contrôle total sur vos cargaisons à chaque étape du trajet grâce au Suivi en temps réel via GPS",
+        "Un parcours clair et rapide : sélectionnez une offre, encherissez, et chargez": "Un parcours clair et rapide : sélectionnez une offre, encherissez, et chargez.",
+        "Un matching intelligent pour trouver les chargements adaptés à vos itinéraires et capacités": "Un matching intelligent pour trouver les chargements adaptés à vos itinéraires et capacités.",
+        "Une multitude de chargements disponibles pour réduire vos trajets à vide": "Une multitude de chargements disponibles pour réduire vos trajets à vide.",
+        "Découvrez comment ça fonctionne": "Découvrez comment ça fonctionne",
+        "CloudFret s'engage envers la qualité et l'amélioration continue": "CloudFret s'engage envers la qualité et l'amélioration continue, pour la protection de l'environnement et le développement durable, et aussi pour la sécurité et la santé au travail."
+    },
+    "Blog": {
+        "articles-list": [
+            {
+                "image": "/images/home/blog-1.png",
+                "title": "CloudFret dévoile sa Nouvelle Fonctionnalité Inédite!",
+                "description": "Chez Cloudfret, notre passion est de faciliter le quotidien des transporteurs et expéditeurs. Conscients des défis auxquels ils font face, nous avons développé"
+            },
+            {
+                "image": "/images/home/blog-2.png",
+                "title": "CLOUDFRET : Au sommet des innovateurs en Afrique",
+                "description": "L’écosystème entrepreneurial africain vibre d’innovation, et au cœur de cette révolution, CLOUDFRET se distingue comme une des start-ups africaines les plus innovantes"
+            },
+            {
+                "image": "/images/home/blog-3.png",
+                "title": "10 M€ de commandes pour la startup CLOUDFRET",
+                "description": "La startup CloudFret continue sa croissance en sécurisant un carnet de commande d’une valeur de 10 M€ pour digitaliser le fret routier.Plusieurs grands comptes"
+            }
+        ],
+        "Lire la suite": "Lire la suite"
+    },
+    "Testimonials": {
+        "testimonials-list": [
+            {
+                "avatar": "/images/home/avatar-1.png",
+                "name": "Jessie Owner",
+                "job": "Founder, XYZ Company",
+                "text": "“If you haven’t tried whitepace yet, you need to give it a shot for your next event. It’s so easy and intuitive to get a new event setup and if you need any help their customer service is seriously amazing.”",
+                "rating": 5
+            },
+            {
+                "avatar": "/images/home/avatar-2.png",
+                "name": "Jessie Owner",
+                "job": "Founder, XYZ Company",
+                "text": "“If you haven’t tried whitepace yet, you need to give it a shot for your next event. It’s so easy and intuitive to get a new event setup and if you need any help their customer service is seriously amazing.”",
+                "rating": 4
+            },
+            {
+                "avatar": "/images/home/avatar-3.png",
+                "name": "Jessie Owner",
+                "job": "Founder, XYZ Company",
+                "text": "“If you haven’t tried whitepace yet, you need to give it a shot for your next event. It’s so easy and intuitive to get a new event setup and if you need any help their customer service is seriously amazing.”",
+                "rating": 5
+            },
+            {
+                "avatar": "/images/home/avatar-1.png",
+                "name": "Jessie Owner",
+                "job": "Founder, XYZ Company",
+                "text": "“If you haven’t tried whitepace yet, you need to give it a shot for your next event. It’s so easy and intuitive to get a new event setup and if you need any help their customer service is seriously amazing.”",
+                "rating": 5
+            }
+        ]
+    },
+    "Transporters": {
+        "Transporteurs": "Transporteurs",
+        "Choisissez le chargement adéquat et garantissez votre paiement": "Choisissez le chargement adéquat et garantissez votre paiement",
+        "Rejoingez la communauté des transporteurs": "Rejoingez la communauté des transporteurs",
+        "Transporteurs, faites le choix intelligent avec Cloudfret": "Transporteurs, faites le choix intelligent avec Cloudfret – Accédez aux expéditions des chargeurs fiables, Réduisez vos trajets à vide et Optimisez la gestion de votre flotte pour maximiser vos revenus.",
+        "advantages-list": [
+            {
+                "icon": "/images/transporters/icon-1.svg",
+                "text": "Zéro retours à vide"
+            },
+            {
+                "icon": "/images/transporters/icon-2.svg",
+                "text": "Simplicité et rapidité"
+            },
+            {
+                "icon": "/images/transporters/icon-3.svg",
+                "text": "Paiement rapide garanti"
+            }
+        ],
+        "functionalities-list": [
+            {
+                "icon": "/images/transporters/bidding.svg",
+                "text": "Bidding"
+            },
+            {
+                "icon": "/images/transporters/disponibility.svg",
+                "text": "Disponibilité des camions"
+            },
+            {
+                "icon": "/images/transporters/matching.svg",
+                "text": "Matching Automatique"
+            }
+        ],
+        "mobile-items": [
+            {
+                "title": "Bidding",
+                "subtitle": "Explorez et négociez des offres de chargement en toute simplicité",
+                "icon": "/images/transporters/bidding.svg",
+                "items": [
+                    {
+                        "text": "Choisissez l’offre de chargement qui vous convient",
+                        "image": "/images/transporters/phone-1.png"
+                    },
+                    {
+                        "text": "Proposez votre prix",
+                        "image": "/images/transporters/phone-2.png"
+                    },
+                    {
+                        "text": "Contactez le client et prenez en charge le transport",
+                        "image": "/images/transporters/phone-3.png"
+                    }
+                ],
+                "buttonText": "Découvrez les offres de chargement"
+            },
+            {
+                "title": "Disponibilité des camions",
+                "subtitle": "Recevez des offres de clients en seulement 2 étapes",
+                "icon": "/images/transporters/disponibility.svg",
+                "items": [
+                    {
+                        "text": "Choisissez l’offre de chargement qui vous convient",
+                        "image": "/images/transporters/phone-4.png"
+                    },
+                    {
+                        "text": "Proposez votre prix",
+                        "image": "/images/transporters/phone-5.png"
+                    }
+                ],
+                "buttonText": "Commencez maintenant"
+            },
+            {
+                "title": "Matching Automatique",
+                "subtitle": "Technologie intelligente à votre disposition",
+                "icon": "/images/transporters/matching.svg",
+                "items": [
+                    {
+                        "text": "Une notification instantanée dès qu'une offre de chargement correspond à vos disponibilités",
+                        "image": "/images/transporters/phone-6.png"
+                    }
+                ],
+                "buttonText": "Ne manquez plus jamais une opportunité"
+            }
+        ],
+        "N'attendez plus, téléchargez l'application et profitez d'offres exclusives": "N'attendez plus, téléchargez l'application et profitez d'offres exclusives",
+        "Téléchargez l'application": "Téléchargez l'application"
+    },
+    "Senders": {
+        "Expéditeurs": "Expéditeurs",
+        "Transportez vos marchandises partout, en toute simplicité et efficacité": "Transportez vos marchandises partout, en toute simplicité et efficacité",
+        "Rejoingez la communauté des chargeurs": "Rejoingez la communauté des chargeurs",
+        "Accédez instantanément à un réseau de transporteurs soigneusement sélectionnés": "Accédez instantanément à un réseau de transporteurs soigneusement sélectionnés pour leur fiabilité et leur expertise. Que vous ayez besoin d’un transport ponctuel ou régulier, l'application Cloudfret vous permet de trouver la solution idéale en quelques clics.",
+        "advantages-list": [
+            {
+                "icon": "/images/senders/icon-1.svg",
+                "text": "Devis instantanés"
+            },
+            {
+                "icon": "/images/senders/icon-2.svg",
+                "text": "Service client 24h/7"
+            },
+            {
+                "icon": "/images/senders/icon-3.svg",
+                "text": "Transparence totale"
+            }
+        ],
+        "functionalities-list": [
+            {
+                "icon": "/images/senders/bidding-dark.svg",
+                "text": "Bidding"
+            },
+            {
+                "icon": "/images/senders/disponibility-dark.svg",
+                "text": "Disponibilité des camions"
+            },
+            {
+                "icon": "/images/senders/matching-dark.svg",
+                "text": "Matching Automatique"
+            }
+        ],
+        "mobile-items": [
+            {
+                "title": "Bidding",
+                "subtitle": "Gérez vos expéditions avec simplicité et efficacité",
+                "icon": "/images/senders/bidding.svg",
+                "items": [
+                    {
+                        "text": "Publiez votre offre de chargement en quelques clics.",
+                        "image": "/images/senders/phone-1.png"
+                    },
+                    {
+                        "text": "Recevez des propositions de transporteurs fiables en temps réel.",
+                        "image": "/images/senders/phone-2.png"
+                    },
+                    {
+                        "text": "Négociez et choisissez le transporteur qui répond le mieux à vos besoins.",
+                        "image": "/images/senders/phone-3.png"
+                    }
+                ],
+                "buttonText": "Découvrez les offres de chargement"
+            },
+            {
+                "title": "Disponibilité des camions",
+                "subtitle": "Trouvez rapidement le camion idéal pour votre chargement en 2 clics",
+                "icon": "/images/senders/disponibility.svg",
+                "items": [
+                    {
+                        "text": "Filtrez par ville, type de camion et date pour trouver les options qui répondent à vos besoins.",
+                        "image": "/images/senders/phone-4.png"
+                    },
+                    {
+                        "text": "Contactez directement les transporteurs pour confirmer la disponibilité et négocier.",
+                        "image": "/images/senders/phone-5.png"
+                    },
+                    {
+                        "image": "/images/senders/phone-6.png"
+                    }
+                ],
+                "buttonText": "Commencez maintenant"
+            },
+            {
+                "title": "Matching Automatique",
+                "subtitle": "Technologie intelligente à votre disposition",
+                "icon": "/images/senders/matching.svg",
+                "items": [
+                    {
+                        "text": "Une notification instantanée dès qu'une offre de chargement correspond à vos disponibilités",
+                        "image": "/images/senders/phone-6.png"
+                    }
+                ],
+                "buttonText": "Ne manquez plus jamais une opportunité"
+            }
+        ],
+        "N'attendez plus, téléchargez l'application et profitez d'offres exclusives": "N'attendez plus, téléchargez l'application et profitez d'offres exclusives",
+        "Téléchargez l'application": "Téléchargez l'application"
+    },
+    "Routes": {
+        "routes-list": [
+            {
+                "date": "Il y a 1 heure",
+                "fromCity": "Barcelona",
+                "fromCountry": "es",
+                "toCity": "Casablanca",
+                "toCountry": "ma",
+                "type": "Pièces auto",
+                "weight": "20000 kg",
+                "loadingData": "2024-12-01",
+                "trailers": ["Frigorifique"]
+            },
+            {
+                "date": "Il y a 2 heures",
+                "fromCity": "Paris",
+                "fromCountry": "fr",
+                "toCity": "Casablanca",
+                "toCountry": "ma",
+                "type": "Automotive",
+                "weight": "14000 kg",
+                "loadingData": "2024-12-01",
+                "trailers": ["Baché", "Méga Baché"]
+            },
+            {
+                "date": "Il y a 3 heures",
+                "fromCity": "Madrid",
+                "fromCountry": "es",
+                "toCity": "Casablanca",
+                "toCountry": "ma",
+                "type": "Viandes",
+                "weight": "20000 kg",
+                "loadingData": "2024-12-01",
+                "trailers": ["Frigorifique"]
+            },
+            {
+                "date": "Il y a 4 heures",
+                "fromCity": "Lisbon",
+                "fromCountry": "pt",
+                "toCity": "Casablanca",
+                "toCountry": "ma",
+                "type": "Pièces auto",
+                "weight": "20000 kg",
+                "loadingData": "2024-12-01",
+                "trailers": ["Frigorifique"]
+            }
+        ],
+        "Date de chargement": "Date de chargement",
+        "Remorques": "Remorques",
+        "buttonText": "Réserver"
     }
 }
