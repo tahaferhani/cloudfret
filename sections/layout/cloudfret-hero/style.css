@@ -1,0 +1,49 @@
+#cloudfret-hero {
+    padding: var(--section-padding);
+    background: no-repeat center/cover;
+    min-height: 500px;
+
+    .title {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 4px 20px;
+        background-color: var(--color-3);
+        font-family: var(--font-primary);
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 1;
+        color: #fff;
+        text-transform: uppercase;
+
+        &.color1 {
+            background-color: var(--color-1);
+        }
+
+        &.color2 {
+            background-color: var(--color-2);
+        }
+
+        &.color4 {
+            background-color: var(--color-4);
+        }
+
+        &.dark {
+            color: var(--color-3);
+        }
+    }
+
+    .subtitle {
+        font-family: var(--font-primary);
+        font-weight: 600;
+        font-size: 30px;
+        color: #fff;
+        line-height: 1.2;
+        max-width: 580px;
+        margin-top: 20px;
+    }
+
+    .button {
+        margin-top: 60px;
+    }
+}

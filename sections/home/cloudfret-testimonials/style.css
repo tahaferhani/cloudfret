@@ -1,0 +1,91 @@
+#cloudfret-testimonials {
+    padding: var(--section-padding);
+
+    .swiper {
+        padding: 60px 40px;
+
+        .swiper-slide {
+            &.swiper-slide-prev {
+                left: -50px;
+            }
+
+            &.swiper-slide-active {                
+                & + .swiper-slide + .swiper-slide + .swiper-slide {
+                    right: -50px;
+                }
+            }
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            width: 16px;
+            background: no-repeat center/100% auto;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        .swiper-button-prev {
+            left: 0;
+            background-image: url("/images/icons/chevron-left.svg");
+        }
+
+        .swiper-button-next {
+            right: 0;
+            background-image: url("/images/icons/chevron-right.svg");
+        }
+
+        .swiper-pagination {
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            margin: 0 6px;
+
+            &.swiper-pagination-bullet-active {
+                background-color: var(--color-1);
+            }
+        }
+    }
+
+    .testimonial {
+        background-color: #fff;
+        padding: 30px;
+        box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.08);
+        border-radius: 7px;
+        font-size: 17px;
+        color: var(--color-3);
+
+        .avatar {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .name,
+        .job {
+            font-size: 80%;
+        }
+
+        .text {
+            margin: 24px 0 30px;
+            color: var(--text-color-dark);
+        }
+
+        .rating {
+            display: flex;
+            gap: 2px;
+
+            img {
+                width: 15px;
+                height: 15px;
+            }
+        }
+    }
+}

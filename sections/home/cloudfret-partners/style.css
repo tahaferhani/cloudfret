@@ -1,0 +1,70 @@
+#cloudfret-partners {
+    padding: var(--section-padding);
+    background-color: rgba(var(--color-3-rgb), .05);
+
+    .swiper {
+        padding: 60px 40px;
+        
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            background-color: #f4f6f9;
+        }
+
+        .swiper-slide {
+            &.swiper-slide-prev {
+                left: -50px;
+            }
+
+            &.swiper-slide-active {                
+                & + .swiper-slide + .swiper-slide + .swiper-slide + .swiper-slide + .swiper-slide + .swiper-slide + .swiper-slide {
+                    right: -50px;
+                }
+            }
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            width: 16px;
+            background: no-repeat center/100% auto;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        .swiper-button-prev {
+            left: 0;
+            background-image: url("/images/icons/chevron-left.svg");
+        }
+
+        .swiper-button-next {
+            right: 0;
+            background-image: url("/images/icons/chevron-right.svg");
+        }
+
+        .swiper-pagination {
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            margin: 0 6px;
+
+            &.swiper-pagination-bullet-active {
+                background-color: var(--text-color);
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        mix-blend-mode: multiply;
+        opacity: .7;
+    }
+}

@@ -1,0 +1,11 @@
+#cloudfret-home-hero {
+    min-height: 500px;
+    background: url("/images/home/hero.jpg") no-repeat center/cover;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 70px;
+
+    .heading {
+        font-size: 48px;
+    }
+}

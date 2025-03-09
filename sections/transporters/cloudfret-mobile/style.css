@@ -1,0 +1,133 @@
+#cloudfret-transporters-mobile {
+    .section {
+        padding: var(--section-padding);
+    }
+
+    .title-container {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        margin-bottom: 70px;
+
+        img {
+            width: 120px;
+        }
+
+        .title {
+            font-family: var(--font-primary);
+            font-size: 48px;
+            color: var(--color-3);
+        }
+
+        .subtitle {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text-color);
+        }
+    }
+
+    .items {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        counter-reset: item;
+
+        &.items-2 {
+            max-width: 850px;
+        }
+
+        &.items-1 {
+            .item {
+                display: flex;
+                align-items: flex-start;
+                max-width: none;
+
+                .item-image {
+                    margin-left: 120px;
+                }
+            }
+
+            & + .button-container {
+                margin-top: -120px;
+            }
+        }
+
+        &.title-missed {
+            .item {
+                &:not(:first-child) {
+                    .item-title {
+                        margin-left: 70px;
+                    }
+                }
+            }
+
+            .item-title {
+                max-width: none !important;
+                min-width: 400px;
+            }
+        }
+
+        .arrow-separator {
+            align-self: center;
+        }
+
+        .item {
+            max-width: 306px;
+
+            .item-title {
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                gap: 14px;
+                margin-bottom: 30px;
+                max-width: 420px;
+
+                &::before {
+                    counter-increment: item;
+                    content: counter(item);
+                    width: 70px;
+                    height: 70px;
+                    flex: 0 0 auto;
+                    background: var(--color-2);
+                    font-family: var(--font-primary);
+                    font-size: 48px;
+                    font-weight: 800;
+                    color: var(--color-3);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    margin-left: 20px;
+                }
+            }
+
+            .item-image {
+                position: relative;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    width: 100%;
+                    aspect-ratio: 1;
+                    right: -40px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background-color: var(--color-2);
+                    opacity: .4;
+                    filter: blur(50px);
+                    border-radius: 50%;
+                }
+
+                img {
+                    width: 100%;
+                    max-width: 306px;
+                }
+            }
+        }
+    }
+
+    .button {
+        margin-top: 30px;
+    }
+}

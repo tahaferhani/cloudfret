@@ -1,0 +1,37 @@
+#cloudfret-blog {
+    padding: var(--section-padding);
+
+    .row {
+        margin: 0 -16px;
+
+        & > * {
+            padding: 0 16px;
+        }
+    }
+
+    .article {
+        margin-top: 40px;
+        color: var(--text-color-dark);
+
+        .image {
+            position: relative;
+            aspect-ratio: 3/2;
+        }
+
+        .title {
+            font-size: 20px;
+            margin: 30px 0 10px;
+        }
+
+        p {
+            font-size: 17px;
+            color: var(--text-color-light);
+            margin-bottom: 30px;
+            display: -webkit-box;
+            line-clamp: 4;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+}

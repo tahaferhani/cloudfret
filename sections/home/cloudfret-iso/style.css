@@ -1,0 +1,14 @@
+#cloudfret-iso {
+    padding: var(--section-padding);
+    background-color: var(--color-3);
+
+    .subtitle {
+        color: #fff;
+        text-align: center;
+        margin: 25px 0 50px;
+    }
+
+    img {
+        width: 170px;
+    }
+}

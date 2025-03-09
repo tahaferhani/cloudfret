@@ -1,0 +1,110 @@
+#cloudfret-home-mobile {
+    position: relative;
+    padding: var(--section-padding);
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 600px;
+        background: linear-gradient(180deg, var(--color-2) 34%, #FFFFFF 100%);
+        opacity: 0.63;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0px;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(0deg, var(--color-2) 0%, #FFFFFF 100%);
+        opacity: 0.63;
+    }
+
+    .durable-solutions {
+        .row {
+            margin-top: 30px;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+
+        .image {
+            position: relative;
+            right: -50px;
+            width: 100%;
+            max-width: 376px;
+        }
+    }
+
+    .mobile-app {
+        margin-top: 60px;
+
+        .subtitle {
+            margin-top: 10px;
+        }
+
+        .mobile-app-item {
+            margin-top: 90px;
+            padding: 0 40px;
+
+            &:nth-child(odd) {
+                .phone-image {
+                    margin-right: -25px;
+                }
+            }
+
+            &:nth-child(even) {
+                .phone-image {
+                    margin-left: -25px;
+                }
+            }
+
+            .heading {
+                &.color1 + .subtitle {
+                    mark {
+                        color: var(--color-1) !important;
+                    }
+                }
+            }
+
+            .subtitle {
+                font-size: 24px;
+                font-weight: 600;
+                margin-top: 20px;
+
+                mark {
+                    background-color: transparent;
+                    white-space: nowrap;
+                    color: inherit;
+                }
+            }
+
+            .option {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-top: 20px;
+
+                b {
+                    font-weight: 500;
+                }
+            }
+
+            .button {
+                margin-top: 40px;
+            }
+
+            .phone-image {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+    }
+}

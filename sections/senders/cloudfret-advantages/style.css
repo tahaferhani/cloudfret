@@ -1,0 +1,49 @@
+#cloudfret-advantages {
+    padding: var(--section-padding);
+
+    .subtitle {
+        color: var(--text-color-light);
+        margin-top: 50px;
+    }
+
+    .row {
+        margin: 0 -40px;
+
+        & > * {
+            display: flex;
+            justify-content: center;
+            padding: 0 40px;
+        }
+    }
+
+    .advantage {
+        position: relative;
+        z-index: 1;
+        width: 230px;
+        min-height: 230px;
+        margin-top: 50px;
+        background: linear-gradient(var(--color-1), var(--color-3));
+        border-radius: 30px;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            background: #fff;
+            border-radius: 28px;
+            inset: 3px;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--color-3);
+        }
+    }
+}
