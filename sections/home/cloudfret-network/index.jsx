@@ -15,7 +15,7 @@ const SmartNetwork = () => {
         <Fade direction="up" triggerOnce cascade>
           <Heading center highlightColor="color1">Votre réseau intelligent de fret #1 au Maroc</Heading>
           <p className="subtitle">{t("Simplifiez votre logistique")}</p>
-          <Button color="gradient">{t("Rejoignez un réseau qui connecte des milliers de professionnels du transport")}</Button>
+          <Button center color="gradient">{t("Rejoignez un réseau qui connecte des milliers de professionnels du transport")}</Button>
         </Fade>
       </div>
 
