@@ -11,23 +11,24 @@ const Loader = () => {
 
   useEffect(() => {
     setShown(true);
-    
+
     setTimeout(() => {
       setAnimateUp(true);
       setTimeout(() => {
         setShown(false);
         setAnimateUp(false);
       }, 500);
-    }, 700);
+    }, 900);
   }, [pathname]);
 
   useEffect(() => {
-    
+
   }, [shown])
 
   return (
     <div className={clsx("page-loader", animateUp && "animate-up", shown && "shown")}>
-      <div className="loader"></div>
+      <img className="logo" src="/images/cloudfret-light.svg" alt="Cloudfret" />
+      <img className="loader" src="/images/icons/loader.svg" alt="Loader" />
     </div>
   );
 };

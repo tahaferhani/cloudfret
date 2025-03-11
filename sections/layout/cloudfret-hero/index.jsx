@@ -7,7 +7,6 @@ import { Fade } from "react-awesome-reveal"
  * CloudfretHero component
  * @typedef { "dark" | "light" } TitleColor
  * @typedef { "color1" | "color2" | "color4" } BackgroundColor
- * 
  * @param {object} props - The props object
  * @param {String} props.backgroud - The background image
  * @param {String} props.title - The title of the hero section
@@ -29,7 +28,11 @@ const CloudfretHero = ({ backgroud, title, titleColor, titleBackground, icon, su
             {title}
           </h1>
           <p className="subtitle">{subtitle}</p>
-          <Button color={buttonColor} textColor={isButtonDark && "dark"}>{buttonText}</Button>
+          {
+            buttonText && (
+              <Button color={buttonColor} textColor={isButtonDark && "dark"}>{buttonText}</Button>
+            )
+          }
         </Fade>
       </div>
     </section>

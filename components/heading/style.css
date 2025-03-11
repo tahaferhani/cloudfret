@@ -37,6 +37,7 @@
         position: relative;
         color: inherit;
         background-color: transparent;
+        white-space: nowrap;
 
         &::before {
             content: '';

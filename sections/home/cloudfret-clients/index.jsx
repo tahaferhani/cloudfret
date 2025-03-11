@@ -8,7 +8,7 @@ import "./style.css";
 import Heading from "@/components/heading";
 import { Fade } from "react-awesome-reveal";
 
-function CloudfretPartners({ title }) {
+function CloudfretClients({ title }) {
   const partners = [
     "/images/home/partner-1.png",
     "/images/home/partner-2.png",
@@ -23,7 +23,7 @@ function CloudfretPartners({ title }) {
   ]
 
   return (
-    <section id="cloudfret-partners">
+    <section id="cloudfret-clients">
       <div className="container">
         <Fade direction="up" triggerOnce>
           <Heading color="dark" highlightColor="color2" noShape>Ils nous font confiance</Heading>
@@ -50,4 +50,4 @@ function CloudfretPartners({ title }) {
   )
 }
 
-export default CloudfretPartners
+export default CloudfretClients

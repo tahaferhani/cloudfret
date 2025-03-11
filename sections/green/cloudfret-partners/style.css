@@ -1,0 +1,22 @@
+#cloudfret-partners {
+    padding: var(--section-padding);
+    background-color: rgba(var(--color-2-rgb), 0.15);
+
+    .row {
+        margin-top: 80px;
+    }
+
+    .partner {
+        background-color: rgba(246, 255, 254, 0.8);
+        padding: 65px 70px;
+        border: 1px solid var(--color-2);
+        border-radius: 30px;
+
+        img {
+            display: table;
+            max-width: 100%;
+            max-height: 100px;
+            margin: 0 auto 30px;
+        }
+    }
+}

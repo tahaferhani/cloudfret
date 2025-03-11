@@ -23,13 +23,18 @@
         transform: translateY(-100%);
     }
 
+    .logo {
+        margin-right: 30px;
+        height: 40px;
+    }
+
     .loader {
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        /* height: 60px;
         border: 5px solid var(--color-1);
         border-top-color: transparent;
         border-radius: 50%;
-        animation: spin .5s linear infinite;
+        animation: spin .5s linear infinite; */
     }
 }
 

@@ -1,0 +1,20 @@
+#cloudfret-freight-benefits {
+    padding: var(--section-padding);
+    background-color: #F1F7FF;
+
+    .items {
+        margin: 90px 0;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-size: 22px;
+        font-weight: 600;
+
+        .icon {
+            width: 100px;
+        }
+    }
+}

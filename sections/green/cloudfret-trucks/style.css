@@ -1,0 +1,45 @@
+#cloudfret-trucks {
+    padding: var(--section-padding);
+    background-color: rgba(var(--color-2-rgb), 0.1);
+
+    .row {
+        margin-top: 100px;
+    }
+
+    .trucks {
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            width: 420px;
+            height: 475px;
+            background: rgba(255, 255, 255, 0.96);
+            filter: blur(50px);
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .truck {
+        text-align: center;
+        font-weight: 700;
+
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 177px;
+        }
+    }
+
+    .text {
+        line-height: 1.8;
+        margin-bottom: 90px;
+    }
+}

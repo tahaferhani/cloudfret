@@ -1,0 +1,35 @@
+#cloudfret-green-form {
+    padding: var(--section-padding);
+
+    .row {
+        margin-top: 65px;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+        padding: 80px 50px;
+        border-radius: 30px;
+        background: linear-gradient(180deg, rgba(var(--color-2-rgb), 0.48) 56%, rgba(var(--color-2-rgb), 0.2112) 100%);
+
+        input {
+            box-shadow: none;
+        }
+
+        .button-container {
+            width: 100%;
+            margin-top: 20px;
+            text-align: right;
+
+            .button {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+    }
+
+    .image {
+        width: calc(100% + 30px);
+        margin-left: -30px;
+    }
+}

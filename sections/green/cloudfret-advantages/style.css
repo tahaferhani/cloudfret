@@ -1,0 +1,77 @@
+#cloudfret-green-advantages {
+    padding: var(--section-padding);
+    background-color: rgba(var(--color-2-rgb), 0.2);
+
+    .container {
+        position: relative;
+        background: url(/images/green/eco-electric.png) no-repeat bottom right 40px/400px auto, url(/images/green/eco-electric-shadow.png) no-repeat right bottom 150px/500px auto;
+    }
+
+    .items {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 60px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            left: 80px;
+            height: 100%;
+            border-left: 3px solid var(--color-2);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 70px;
+            bottom: -48px;
+            width: 22px;
+            height: 50px;
+            background: url("/images/home/service-arrow-2.svg") no-repeat center/100%;
+        }
+    }
+
+    .items-title {
+        padding: 15px 45px;
+        font-size: 26px;
+        font-weight: 600;
+        border: 3px solid var(--color-2);
+        border-radius: 18px;
+        margin-top: 60px;
+        background-color: #fff;
+        max-width: 700px;
+        margin-bottom: 50px;
+
+        mark {
+            background-color: transparent;
+            color: var(--color-2);
+        }
+    }
+
+    .item {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        font-weight: 600;
+        color: var(--text-color-light);
+        padding: 0 30px;
+        margin-top: 22px;
+    }
+
+    .item-icon {
+        width: 100px;
+        height: 100px;
+        border: 3px solid var(--color-2);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 auto;
+        background-color: #fff;
+
+        img {
+            max-width: 80%;
+        }
+    }
+}

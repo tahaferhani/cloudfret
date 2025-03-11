@@ -5,7 +5,7 @@ import CloudfretTestimonials from "@/sections/home/cloudfret-testimonials";
 import Heading from "@/components/heading";
 import CloudfretIso from "@/sections/home/cloudfret-iso";
 import Cloudfretblog from "@/sections/home/cloudfret-blog";
-import CloudfretPartners from "@/sections/home/cloudfret-partners";
+import CloudfretClients from "@/sections/home/cloudfret-clients";
 import CloudfretHomeHero from "@/sections/home/cloudfret-home-hero";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <CloudfretHomeHero/>
       <CloudfretNetwork/>
       <CloudfretAdvantages/>
-      <CloudfretPartners/>
+      <CloudfretClients/>
       <CloudfretMobile/>
       <CloudfretTestimonials title={<Heading color="dark" highlightColor="color2" noShape secondaryFont>Ce que nos partenaires disent de Cloudfret</Heading>}/>
       <CloudfretIso/>
