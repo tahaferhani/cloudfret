@@ -1,10 +1,6 @@
 #cloudfret-navbar {
     display: unset;
 
-    .logo-container {
-        padding: 30px 0 20px;
-    }
-
     nav {
         z-index: 99;
         padding: 20px 0;
@@ -13,18 +9,23 @@
         font-weight: 500;
         color: #fff;
 
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            flex: 1;
+            img {
+                display: block;
+                width: 150px;
+            }
+        }
+
         .menu {
             display: flex;
             align-items: center;
-            justify-content: space-between;
-
-            .separator {
-                display: block;
-                height: 40px;
-                border-right: 2px solid #fff;
-                opacity: .2;
-                cursor: default;
-            }
+            gap: 40px;
 
             & > * {
                 position: relative;
@@ -34,6 +35,19 @@
                 &:hover,
                 &.active {
                     color: var(--color-1);
+                }
+
+                &:not(:last-child) {
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        right: -20px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        height: 40px;
+                        border-right: 2px solid #fff;
+                        opacity: .2;
+                    }
                 }
 
                 &.has-submenu {
@@ -106,6 +120,17 @@
             font-weight: 500;
             color: var(--color-3) !important;
             background-color: var(--color-2);
+        }
+
+        .locale {
+            cursor: pointer;
+            margin-left: 40px;
+            display: block;
+            width: 30px;
+            height: 20px;
+            border-radius: 3px;
+            overflow: hidden;
+            object-fit: cover;
         }
     }
 }

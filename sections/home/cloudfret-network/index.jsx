@@ -2,12 +2,13 @@ import React from "react"
 import Button from "@/components/button";
 import Heading from "@/components/heading";
 import { useTranslations } from "next-intl"
-import data from "./data"
-import "./style.css"
 import { Fade } from "react-awesome-reveal";
+import parse from "html-react-parser";
+import "./style.css"
 
 const SmartNetwork = () => {
   const t = useTranslations("Home");
+  const services = t.raw("services-list");
 
   return (
     <section id="cloudfret-network">
@@ -21,26 +22,28 @@ const SmartNetwork = () => {
 
       <div className="services">
         <div className="container">
-          <div className="row g-0">
+          <div className="row g-5">
             {
-              data.map((service, index) => (
-                <div key={index} className="col-6">
+              services.map((service, index) => (
+                <div key={index} className="col-4">
                   <div className={`service ${service.color}`}>
-                    <h3 className="service-title">{t(service.title)}</h3>
-                    <img className="service-image" src={service.image} alt={t(service.title)} />
-                    <h4 className="options-title">{t.rich(service.optionsTitle, { mark: text => <mark>{text}</mark> })}</h4>
-                    {
-                      service.options.map((option, index) => (
-                        <div key={index} className="option">
-                          <div className="option-icon">
-                            <img src={option.icon} alt={t(option.text)} />
+                    <h3 className="service-title">{service.title}</h3>
+                    <img className="service-image" src={service.image} alt={service.title} />
+                    <Fade direction="up" triggerOnce cascade>
+                      <h4 className="options-title">{parse(service.optionsTitle)}</h4>
+                      {
+                        service.options.map((option, index) => (
+                          <div key={index} className="option">
+                            <div className="option-icon">
+                              <img src={option.icon} alt={option.text} />
+                            </div>
+                            <p>{option.text}</p>
                           </div>
-                          <p>{t(option.text)}</p>
-                        </div>
-                      ))
-                    }
+                        ))
+                      }
+                    </Fade>
                   </div>
-                  <Button href={service.buttonLink} color={service.color} full>{t(service.buttonText)}</Button>
+                  <Button href={service.buttonLink} color={service.color} full>{service.buttonText}</Button>
                 </div>
               ))
             }

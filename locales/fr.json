@@ -29,15 +29,15 @@
                 "subItems": [
                     {
                         "title": "Cloudfret Green",
-                        "link": "#"
+                        "link": "/green"
                     },
                     {
                         "title": "Freight Forwarding",
-                        "link": "#"
+                        "link": "/freight-forwarding"
                     },
                     {
                         "title": "Assurance",
-                        "link": "#"
+                        "link": "/insurance"
                     },
                     {
                         "title": "Offre Carburant Cloudfret",
@@ -70,11 +70,64 @@
         "Lancez-vous Maintenant!": "Lancez-vous Maintenant!",
         "+4000 Transporteurs de Confiance à Votre Service!": "<mark>+4000 Transporteurs</mark><br></br>de Confiance à Votre Service!",
         "Retour d'expérience de nos partenaires transporteurs": "Retour d'expérience de nos partenaires <mark>transporteurs</mark>",
-        "Retour d'expérience de nos partenaires Expéditeurs": "Retour d'expérience de nos partenaires <mark>Expéditeurs</mark>"
+        "Retour d'expérience de nos partenaires Expéditeurs": "Retour d'expérience de nos partenaires <mark>Expéditeurs</mark>",
+        "Réduisez votre empreinte carbone et optimisez votre logistique avec Cloudfret Green": "Réduisez votre empreinte carbone et optimisez votre logistique avec <mark>Cloudfret Green</mark>",
+        "Une Flotte 100% Électrique et Photovoltaïque": "Une Flotte <mark>100% Électrique</mark> et Photovoltaïque",
+        "Superchargeurs Alimentés par l'Énergie Solaire": "Superchargeurs Alimentés par <mark>l'Énergie Solaire</mark>",
+        "Prêt à Passer au Vert ?": "Prêt à Passer au <mark>Vert ?</mark>",
+        "Une Mission Partagée avec Nos Partenaires": "Une Mission Partagée avec <mark>Nos Partenaires</mark>",
+        "Commencez avec Cloudfret Green aujourd'hui": "Commencez avec <mark>Cloudfret Green</mark> aujourd'hui",
+        "Notre Engagement : La Meilleure Solution de Freight Forwarding pour Vous": "Notre Engagement : La Meilleure Solution de <mark>Freight Forwarding</mark> pour Vous",
+        "Bénéfices Concrets": "Bénéfices <mark>Concrets</mark>",
+        "Trouvez l'assurance parfaitement adaptée à vos besoins": "Trouvez l'assurance parfaitement <mark>adaptée</mark> à vos besoins",
+        "Services d'assistance complète": "Services d'assistance <mark>complète</mark>",
+        "Avantages exclusifs pour les transporteurs": "<mark>Avantages exclusifs</mark> pour les transporteurs",
+        "Qui peut bénéficier de cette offre d'assurance et assistance ?": "Qui peut bénéficier de cette offre <mark>d'assurance</mark> et <mark>assistance</mark> ?"
     },
     "Home": {
         "Simplifiez votre logistique": "Simplifiez votre logistique grâce à une bourse de fret innovante. Réduisez vos coûts, éliminez les trajets à vide et trouvez rapidement des partenaires fiables parmi un réseau de transporteurs et chargeurs marocains et internationaux.",
         "Rejoignez un réseau qui connecte des milliers de professionnels du transport": "Rejoignez un réseau qui connecte des milliers de professionnels du transport",
+        "services-list": [
+            {
+                "title": "Transporteurs",
+                "image": "/images/home/service-1.jpg",
+                "color": "color2",
+                "optionsTitle": "<mark>Minimisez l'inutilisé,</mark>Maximiser les revenus",
+                "options": [
+                    { "icon": "/images/home/network-1.svg", "text": "Réseau fiable de clients et de partenaires" },
+                    { "icon": "/images/home/network-2.svg", "text": "Paiements rapides et sécurisés" },
+                    { "icon": "/images/home/network-3.svg", "text": "Carburant à prix réduit et assurances sur-mesure à des tarifs imbattables" }
+                ],
+                "buttonText": "Rejoignez le réseau des transporteurs",
+                "buttonLink": "/transporters"
+            },
+            {
+                "title": "Commissionnaires",
+                "image": "/images/home/service-2.jpg",
+                "color": "color3",
+                "optionsTitle": "<mark>Plus d’opportunités,</mark>Moins de complications",
+                "options": [
+                    { "icon": "/images/home/network-1.svg", "text": "Un seul compte pour tout gérer" },
+                    { "icon": "/images/home/network-2.svg", "text": "Vaste réseau de clients et de partenaires fiables" },
+                    { "icon": "/images/home/network-3.svg", "text": "Vaste réseau de clients et de partenaires fiables" }
+                ],
+                "buttonText": "Rejoignez le réseau des commissionnaires",
+                "buttonLink": "#"
+            },
+            {
+                "title": "Chargeurs",
+                "image": "/images/home/service-3.jpg",
+                "color": "color1",
+                "optionsTitle": "<mark>Plus de choix,</mark>Moins de soucis",
+                "options": [
+                    { "icon": "/images/home/network-4.svg", "text": "Accès à un réseau de plus de 4000 transporteurs et 16000 remorques" },
+                    { "icon": "/images/home/network-5.svg", "text": "Gestion des expéditions en temps réel" },
+                    { "icon": "/images/home/network-6.svg", "text": "Tarifs compétitifs" }
+                ],
+                "buttonText": "Rejoignez le réseau des chargeurs",
+                "buttonLink": "/senders"
+            }
+        ],
         "Transporteurs": "Transporteurs",
         "Chargeurs": "Chargeurs",
         "Minimisez l'inutilisé, Maximiser les revenus": "<mark>Minimisez l'inutilisé,</mark>Maximiser les revenus",
@@ -396,5 +449,176 @@
         "Date de chargement": "Date de chargement",
         "Remorques": "Remorques",
         "buttonText": "Réserver"
+    },
+    "Green": {
+        "Cloudfret Green": "Cloudfret Green",
+        "Votre Partenaire pour des Solutions de Transport Durables": "Votre Partenaire pour des Solutions de Transport Durables",
+        "La première solution de transport intra-zone 100% électrique Accessible à Tous": "<mark>La première solution</mark> de transport <mark>intra-zone 100% électrique</mark> Accessible à Tous",
+        "Demandez votre devis gratuit": "Demandez votre devis gratuit",
+        "advantages-list": [
+            {
+                "icon": "/images/green/advantage-1.svg",
+                "text": "Mobilité électrique au prix du diesel"
+            },
+            {
+                "icon": "/images/green/advantage-2.svg",
+                "text": "Alignement avec vos Objectifs RSE"
+            },
+            {
+                "icon": "/images/green/advantage-3.svg",
+                "text": "Économies Fiscales"
+            },
+            {
+                "icon": "/images/green/advantage-4.svg",
+                "text": "Transport Intra-Zone Avancé"
+            }
+        ],
+        "Tonnes": "Tonnes",
+        "Notre flotte 100% électrique est alimentée par des panneaux solaires": "Notre flotte <b>100% électrique</b> est alimentée par des panneaux solaires, garantissant ainsi une solution logistique véritablement <b>écologique</b>, capable de gérer des livraisons urgentes, lourdes et dédiées, disponible <b>24/7</b> pour une fiabilité maximale.",
+        "Passez au transport durable": "Passez au transport durable",
+        "Nos superchargeurs sont installés dans des zones stratégiques": "<b>Nos superchargeurs</b> sont installés dans des zones stratégiques et alimentés par une centrale photovoltaïque à haute capacité <b>(2 mégawatts)</b>, garantissant ainsi un transport vraiment durable, sans recourir à l'électricité d’origine fossile.",
+        "Demandez une démo": "Demandez une démo",
+        "Des Bénéfices Concrets et Mesurables": "Des Bénéfices Concrets et Mesurables",
+        "Cloudfret Green n'est pas seulement une solution de transport durable": "Cloudfret Green n'est pas seulement une solution de transport durable, c'est un outil concret et mesurable pour vous aider à atteindre vos objectifs environnementaux et fiscaux, tout en optimisant vos coûts opérationnels.",
+        "benefits-list": [
+            {
+                "image": "/images/green/benefit-1.png",
+                "text": "<b>Réduction</b> des Émissions de <b>CO</b>₂ et de <mark>l'impôt carbone</mark>"
+            },
+            {
+                "image": "/images/green/benefit-2.png",
+                "text": "<b>Réduction</b> de tonnes de <b>CO</b>₂ par an "
+            },
+            {
+                "image": "/images/green/benefit-3.png",
+                "text": "Amélioration des <b>rapports RSE</b> avec des économies de <b>CO</b>₂ documentées"
+            }
+        ],
+        "Obtenez une estimation des économies de CO₂": "Obtenez une estimation des économies de CO₂",
+        "partners-list": [
+            {
+                "image": "/images/green/partner-1.png",
+                "text": "Leader mondial en transport durable, <b>Volvo</b> soutient Cloudfret Green avec ses camions électriques performants, garantissant une flotte robuste et fiable pour des solutions de transport efficientes et écologiques au sein des zones industrielles."
+            },
+            {
+                "image": "/images/green/partner-2.png",
+                "text": "Acteur clé du développement industriel au Maroc, <b>MEDZ</b> aide Cloudfret Green à offrir une infrastructure idéale pour des solutions de transport durable dans les zones franches."
+            }
+        ],
+        "Nom et prénom": "Nom et prénom",
+        "Nom de l'entreprise": "Nom de l'entreprise",
+        "E-mail": "E-mail",
+        "Numéro de tél": "Numéro de tél",
+        "Envoyer": "Envoyer"
+    },
+    "Freight-Forwarding": {
+        "Freight Forwarding": "Freight Forwarding",
+        "Votre Freight Forwarder de Confiance pour des Expéditions Simplifiées": "Votre Freight Forwarder de Confiance pour des Expéditions Simplifiées",
+        "Votre devis personnalisé gratuit en 3 minutes": "Votre devis personnalisé gratuit en 3 minutes",
+        "Cloudfret vous offre une gestion complète de vos expéditions internationales et nationales": "<strong>Cloudfret</strong> vous offre une <b>gestion complète</b> de vos expéditions internationales et nationales, de la <b>négociation des tarifs</b> au <b>suivi des livraisons</b>. Grâce à notre <b>expertise</b> et à un réseau de <b>+4000 transporteurs</b> de confiance, nous vous assurons des solutions logistiques efficaces et adaptées à vos besoins.",
+        "advantages-list": [
+            {
+                "icon": "/images/freight-forwarding/advantage-1.svg",
+                "text": "Gestion simplifiée",
+                "description": "<strong>Cloudfret</strong> gère toutes les étapes de vos expéditions. De l’organisation à la livraison, nous nous chargeons de tout"
+            },
+            {
+                "icon": "/images/freight-forwarding/advantage-2.svg",
+                "text": "Meilleurs Tarifs du marché",
+                "description": "Nous <strong>négocions</strong> des tarifs préférentiels avec nos partenaires pour vous permettre de bénéficier de solutions logistiques <strong>plus compétitives</strong>."
+            },
+            {
+                "icon": "/images/freight-forwarding/advantage-3.svg",
+                "text": "Suivi en Temps Réel et Visibilité Totale",
+                "description": "Vous avez un <strong>accès complet</strong> et en temps réel au statut de vos expéditions, de l’enlèvement à la livraison"
+            }
+        ],
+        "Prêt à Optimiser vos Expéditions ?": "Prêt à Optimiser vos Expéditions ?",
+        "benefits-list": [
+            {
+                "icon": "/images/freight-forwarding/benefit-1.svg",
+                "text": "Visibilité et Contrôle Totals"
+            },
+            {
+                "icon": "/images/freight-forwarding/benefit-2.svg",
+                "text": "Réduction des Coûts et Amélioration de la Rentabilité"
+            },
+            {
+                "icon": "/images/freight-forwarding/benefit-3.svg",
+                "text": "Gain de Temps et Efficacité"
+            },
+            {
+                "icon": "/images/freight-forwarding/benefit-4.svg",
+                "text": "Fiabilité et Sécurité des Expéditions"
+            }
+        ],
+        "Faites le choix d’une gestion logistique fluide et optimisée  Maintenant": "Faites le choix d’une gestion logistique fluide et optimisée  Maintenant"
+    },
+    "Insurance": {
+        "Assurance": "Assurance",
+        "Protégez votre flotte avec notre assurance automobile exclusive": "Protégez votre flotte avec notre assurance automobile exclusive<small>Économisez jusqu'à 40 %et profitez du paiement en plusieurs fois !</small>",
+        "Profitez de tarifs avantageux dès maintenant": "Profitez de tarifs avantageux dès maintenant",
+        "advantages-list": [
+            {
+                "icon": "/images/insurance/advantage-1.svg",
+                "text": "Des tarifs imbattables",
+                "description": "Profitez d'une <strong>réduction</strong> allant Jusqu'a <strong>40%</strong> sur les garanties, par rapport aux autres offres d'assurance disponibles sur le marché"
+            },
+            {
+                "icon": "/images/insurance/advantage-2.svg",
+                "text": "Une gamme complète de services d'assistance",
+                "description": "Bénéficiez d'une <strong>assistance complète</strong> au Maroc et en Europe en cas de panne ou d'accident de votre véhicule"
+            },
+            {
+                "icon": "/images/insurance/advantage-3.svg",
+                "text": "Solution de gestion de flotte avancée",
+                "description": "Une solution de <strong>gestion de flotte</strong> avancée et sécurisée est mise à votre disposition, vous offrant un suivi précis de vos véhicules et une <strong>maîtrise optimale des coûts</strong>."
+            }
+        ],
+        "Économisez jusqu'a 40%": "Économisez jusqu'a 40%",
+        "En cas de panne ou d'accident de votre véhicule": "En cas de panne ou d'accident de votre véhicule, Bénéficiez d'une assistance complète au Maroc et en Europe incluant",
+        "assistance-list": [
+            {
+                "icon": "/images/insurance/assistance-1.svg",
+                "text": "Aide à l'établissement du constat à l'amiable en cas d'accident"
+            },
+            {
+                "icon": "/images/insurance/assistance-2.svg",
+                "text": "Remorquage et grutage en cas de panne ou d'accident"
+            },
+            {
+                "icon": "/images/insurance/assistance-3.svg",
+                "text": "Acheminement des passagers en cas de panne ou d'accident"
+            }
+        ],
+        "Et ce n’est pas tout ! Nous allons encore plus loin pour votre tranquillité d'esprit": "Et ce n’est pas tout ! Nous allons encore plus loin pour votre tranquillité d'esprit",
+        "Exclusive": "Exclusive",
+        "transporters-advantages-list": [
+            {
+                "icon": "/images/insurance/transporters-advantage-1.svg",
+                "text": "Prise en charge des frais d'hôtel lors des réparations en cas de panne ou d'accident"
+            },
+            {
+                "image": "/images/insurance/transporters-advantage.jpg"
+            },
+            {
+                "icon": "/images/insurance/transporters-advantage-2.svg",
+                "text": "Orientation et conseil pour la marchandise transportée en cas de panne ou d'accident"
+            }
+        ],
+        "Intéressé ? contactez-nous dès maintenant": "Intéressé ? contactez-nous dès maintenant",
+        "Spécialement conçue pour les transporteurs partenaires de Cloudfret": "Spécialement conçue pour les <mark>transporteurs partenaires</mark> de Cloudfret",
+        "Cette offre répond aux besoins des professionnels de la route": "Cette offre répond aux besoins des professionnels de la route en offrant des solutions d'assistance personnalisées et une couverture d'assurance aux standards les plus élevés.",
+        "N'attendez-plus !": "N'attendez-plus !",
+        "Remplissez le formulaire ci-dessous et notre équipe vous contactera": "Remplissez le formulaire ci-dessous et notre équipe vous contactera rapidement pour discuter de vos besoins spécifiques",
+        "Nom et Prénom": "Nom et Prénom",
+        "Nom de l'entreprise": "Nom de l'entreprise",
+        "Ville": "Ville",
+        "Téléphone": "Téléphone",
+        "Email": "Email",
+        "Nombre de remorques": "Nombre de remorques",
+        "Nombre de camions": "Nombre de camions",
+        "Compagnie d'assurance actuelle": "Compagnie d'assurance actuelle",
+        "Envoyer ma demande": "Envoyer ma demande"
     }
 }

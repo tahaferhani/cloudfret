@@ -1,11 +1,14 @@
 "use client";
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import "./style.css"
 import { Fragment } from "react";
-import { Link, usePathname } from "@/i18n/navigation";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 
 const CloudfretNavbar = () => {
+  const router = useRouter();
   const pathname = usePathname();
+  const currentLocale = useLocale();
+
   const t = useTranslations("Layout");
   const menuItems = t.raw("menu-items");
 
@@ -13,18 +16,20 @@ const CloudfretNavbar = () => {
     return pathname == link ? "active" : "";
   }
 
+  const switchLocale = () => {
+    console.log(currentLocale)
+    router.replace(pathname, { locale: currentLocale == "fr" ? "en" : "fr" });
+  }
+
   return (
     <header id="cloudfret-navbar">
-      <div className="logo-container">
-        <div className="container">
-          <Link href="/">
-            <img src="/images/cloudfret.svg" alt="Cloudfret" />
-          </Link>
-        </div>
-      </div>
-
       <nav>
         <div className="container">
+          <div className="logo">
+            <Link href="/">
+              <img src="/images/cloudfret.svg" alt="Cloudfret" />
+            </Link>
+          </div>
           <div className="menu">
             {
               menuItems.map((item, index) => (
@@ -55,14 +60,18 @@ const CloudfretNavbar = () => {
                         }
                       </span>
                   }
-
-                  <span className="separator"></span>
                 </Fragment>
               ))
             }
 
-            <a href="#" className="button">{t("Rejoingez la communauté")}</a>
+            {/* <a href="#" className="button">{t("Rejoingez la communauté")}</a> */}
           </div>
+          
+          <img
+            className="locale"
+            onClick={switchLocale}
+            src={`/images/flags/${ currentLocale == "fr" ? "gb" : "fr" }.svg`}
+            alt={ currentLocale == "fr" ? "en" : "fr" } />
         </div>
       </nav>
     </header>

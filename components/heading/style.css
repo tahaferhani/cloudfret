@@ -50,7 +50,8 @@
             transform: translateY(calc(100% + 2px));
         }
     
-        &.noShape {
+        &.noShape,
+        &:not(:last-child){
             &::before {
                 display: none;
             }

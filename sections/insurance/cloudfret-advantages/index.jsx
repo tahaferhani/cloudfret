@@ -6,18 +6,14 @@ import Button from "@/components/button"
 import { Fade } from "react-awesome-reveal"
 
 function CloudfretAdvantages() {
-  const t = useTranslations("Freight-Forwarding")
+  const t = useTranslations("Insurance")
   const advantages = t.raw("advantages-list")
 
   return (
-    <section id="cloudfret-freight-advantages">
+    <section id="cloudfret-insurance-advantages">
       <div className="container">
-        <Fade direction="up" triggerOnce cascade>
-          <p className="text">
-            {parse(t.raw("Cloudfret vous offre une gestion complète de vos expéditions internationales et nationales"))}
-          </p>
-
-          <Heading highlightColor="color2" center={false}>Notre Engagement : La Meilleure Solution de Freight Forwarding pour Vous</Heading>
+        <Fade direction="up" triggerOnce>
+          <Heading highlightColor="color1">Trouvez l'assurance parfaitement adaptée à vos besoins</Heading>
         </Fade>
 
         <div className="items">
@@ -34,7 +30,7 @@ function CloudfretAdvantages() {
                     </div>
                     <img className="arrow-separator" src="/images/icons/arrow-down.svg" alt="Arrow" />
                     <div className="advantage-bottom">
-                      {parse(advantage.description)}
+                      <p>{parse(advantage.description)}</p>
                     </div>
                   </div>
                 </div>
@@ -43,7 +39,7 @@ function CloudfretAdvantages() {
           </div>
         </div>
 
-        <Button>{t("Prêt à Optimiser vos Expéditions ?")}</Button>
+        <Button center>{t("Économisez jusqu'a 40%")}</Button>
       </div>
     </section>
   )

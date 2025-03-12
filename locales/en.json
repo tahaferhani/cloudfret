@@ -1,0 +1,660 @@
+{
+    "Layout": {
+        "Payez-vous trop cher pour l'assurance de vos camions ?": "Are you paying too much for <b>your truck insurance</b>?",
+        "Découvrir notre offre": "Discover our offer",
+        "Abonnez-vous pour rester à l'écoute des nouvelles nouveautés": "Subscribe to stay updated with the latest news",
+        "Entrez votre adresse email": "Enter your email address",
+        "S'abonner": "Subscribe",
+        "Plateforme digitale de mise en relation entre expéditeurs et transporteurs de marchandises": "Digital platform connecting shippers and freight carriers, aiming to optimize empty truck returns",
+        "Accès Rapide": "Quick Access",
+        "Contact": "Contact",
+        "Suivez nous": "Follow us",
+        "Tous droits réservés": "© {year} All rights reserved",
+        "menu-items": [
+            {
+                "title": "Shippers",
+                "link": "/senders"
+            },
+            {
+                "title": "Carriers",
+                "link": "/transporters"
+            },
+            {
+                "title": "Brokers",
+                "link": "#"
+            },
+            {
+                "title": "Services",
+                "link": "#",
+                "subItems": [
+                    {
+                        "title": "Cloudfret Green",
+                        "link": "/green"
+                    },
+                    {
+                        "title": "Freight Forwarding",
+                        "link": "/freight-forwarding"
+                    },
+                    {
+                        "title": "Insurance",
+                        "link": "/insurance"
+                    },
+                    {
+                        "title": "Cloudfret Fuel Offer",
+                        "link": "#"
+                    }
+                ]
+            },
+            {
+                "title": "Blog",
+                "link": "#"
+            }
+        ],
+        "Rejoingez la communauté": "Join the community"
+    },
+    "Headings": {
+        "Le Futur du Transport Routier commence ici": "The Future of Road Transport<br></br><mark>starts here</mark>",
+        "Votre réseau intelligent de fret #1 au Maroc": "Your <mark>intelligent</mark> freight network #1 in Morocco",
+        "CloudFret transforme l'industrie du transport": "CloudFret <mark>transforms</mark> the transport industry",
+        "Cloudfret vous offre des solutions durables": "Cloudfret offers you <mark>sustainable solutions</mark>",
+        "L'Application Mobile Cloudfret": "<mark>The Cloudfret</mark> Mobile Application",
+        "Expédiez avec Cloudfret": "<mark>Ship</mark> with Cloudfret",
+        "Transportez avec Cloudfret": "<mark>Transport</mark> with Cloudfret",
+        "Ce que nos partenaires disent de Cloudfret": "What our partners say about <mark>Cloudfret</mark>",
+        "Certifications ISO": "ISO <mark>Certifications</mark>",
+        "Blog": "Blog",
+        "Ils nous font confiance": "They <mark>trust</mark> us",
+        "La Bourse de Fret Idéale pour les Transporteurs": "The <mark>Ideal</mark> Freight Exchange for Carriers",
+        "Des fonctionnalités conçues pour optimiser vos opérations": "<mark>Features</mark> designed to optimize your operations",
+        "Opportunités de transport instantanées à saisir": "<mark>Instant</mark> transport opportunities to seize",
+        "Lancez-vous Maintenant!": "Get Started Now!",
+        "+4000 Transporteurs de Confiance à Votre Service!": "<mark>+4000 Trusted Carriers</mark><br></br>at Your Service!",
+        "Retour d'expérience de nos partenaires transporteurs": "Feedback from our <mark>carrier</mark> partners",
+        "Retour d'expérience de nos partenaires Expéditeurs": "Feedback from our <mark>shipper</mark> partners",
+        "Réduisez votre empreinte carbone et optimisez votre logistique avec Cloudfret Green": "Reduce your carbon footprint and optimize your logistics with <mark>Cloudfret Green</mark>",
+        "Une Flotte 100% Électrique et Photovoltaïque": "A <mark>100% Electric</mark> and Photovoltaic Fleet",
+        "Superchargeurs Alimentés par l'Énergie Solaire": "Superchargers Powered by <mark>Solar Energy</mark>",
+        "Prêt à Passer au Vert ?": "Ready to Go <mark>Green?</mark>",
+        "Une Mission Partagée avec Nos Partenaires": "A Mission Shared with <mark>Our Partners</mark>",
+        "Commencez avec Cloudfret Green aujourd'hui": "Get started with <mark>Cloudfret Green</mark> today",
+        "Notre Engagement : La Meilleure Solution de Freight Forwarding pour Vous": "Our Commitment: The Best <mark>Freight Forwarding</mark> Solution for You",
+        "Bénéfices Concrets": "<mark>Concrete Benefits</mark>",
+        "Trouvez l'assurance parfaitement adaptée à vos besoins": "Find the <mark>perfectly tailored</mark> insurance for your needs",
+        "Services d'assistance complète": "<mark>Comprehensive</mark> assistance services",
+        "Avantages exclusifs pour les transporteurs": "<mark>Exclusive benefits</mark> for carriers",
+        "Qui peut bénéficier de cette offre d'assurance et assistance ?": "Who can benefit from this <mark>insurance</mark> and <mark>assistance</mark> offer?"
+    },
+    "Home": {
+        "Simplifiez votre logistique": "Simplify your logistics with an innovative freight exchange. Reduce costs, eliminate empty trips, and quickly find reliable partners among a network of Moroccan and international carriers and shippers.",
+        "Rejoignez un réseau qui connecte des milliers de professionnels du transport": "Join a network that connects thousands of transport professionals",
+        "services-list": [
+            {
+                "title": "Carriers",
+                "image": "/images/home/service-1.jpg",
+                "color": "color2",
+                "optionsTitle": "<mark>Minimize the unused,</mark>Maximize revenue",
+                "options": [
+                    {
+                        "icon": "/images/home/network-1.svg",
+                        "text": "Reliable network of clients and partners"
+                    },
+                    {
+                        "icon": "/images/home/network-2.svg",
+                        "text": "Fast and secure payments"
+                    },
+                    {
+                        "icon": "/images/home/network-3.svg",
+                        "text": "Discounted fuel and tailor-made insurance at unbeatable rates"
+                    }
+                ],
+                "buttonText": "Join the carrier network",
+                "buttonLink": "/transporters"
+            },
+            {
+                "title": "Freight Forwarders",
+                "image": "/images/home/service-2.jpg",
+                "color": "color3",
+                "optionsTitle": "<mark>More opportunities,</mark>Fewer complications",
+                "options": [
+                    {
+                        "icon": "/images/home/network-1.svg",
+                        "text": "One account to manage everything"
+                    },
+                    {
+                        "icon": "/images/home/network-2.svg",
+                        "text": "Extensive network of reliable clients and partners"
+                    },
+                    {
+                        "icon": "/images/home/network-3.svg",
+                        "text": "Extensive network of reliable clients and partners"
+                    }
+                ],
+                "buttonText": "Join the freight forwarder network",
+                "buttonLink": "#"
+            },
+            {
+                "title": "Shippers",
+                "image": "/images/home/service-3.jpg",
+                "color": "color1",
+                "optionsTitle": "<mark>More choices,</mark>Less hassle",
+                "options": [
+                    {
+                        "icon": "/images/home/network-4.svg",
+                        "text": "Access to a network of over 4,000 carriers and 16,000 trailers"
+                    },
+                    {
+                        "icon": "/images/home/network-5.svg",
+                        "text": "Real-time shipment management"
+                    },
+                    {
+                        "icon": "/images/home/network-6.svg",
+                        "text": "Competitive rates"
+                    }
+                ],
+                "buttonText": "Join the shipper network",
+                "buttonLink": "/senders"
+            }
+        ],
+        "Transporteurs": "Carriers",
+        "Chargeurs": "Shippers",
+        "Minimisez l'inutilisé, Maximiser les revenus": "<mark>Minimize the unused,</mark>Maximize revenue",
+        "Plus de choix, Moins de soucis": "<mark>More choices,</mark>Less hassle",
+        "Réseau fiable de clients et de partenaires": "Reliable network of clients and partners",
+        "Paiements rapides et sécurisés": "Fast and secure payments",
+        "Carburant à prix réduit et assurances sur-mesure à des tarifs imbattables": "Discounted fuel and tailor-made insurance at unbeatable rates",
+        "Accès à un réseau de plus de 4000 transporteurs et 16000 remorques": "Access to a network of over 4,000 carriers and 16,000 trailers",
+        "Gestion des expéditions en temps réel": "Real-time shipment management",
+        "Tarifs compétitifs": "Competitive rates",
+        "Rejoignez le réseau des transporteurs": "Join the carrier network",
+        "Rejoignez le réseau des chargeurs": "Join the shipper network",
+        "Grâce à une marketplace unique, flexible et à l'ère du digital": "Thanks to a unique, flexible, and digital-era marketplace",
+        "advantages-list": [
+            {
+                "icon": "/images/home/transform-1.svg",
+                "text": "100% availability"
+            },
+            {
+                "icon": "/images/home/transform-2.svg",
+                "text": "Simplicity and speed"
+            },
+            {
+                "icon": "/images/home/transform-3.svg",
+                "text": "Real-time tracking"
+            },
+            {
+                "icon": "/images/home/transform-4.svg",
+                "text": "24/7 customer support"
+            }
+        ],
+        "Notre mission :": "Our mission: eliminate empty returns. By implementing sustainable solutions such as our mobile app, freight consolidation, and electric mobility, we optimize transport efficiency while significantly reducing its carbon footprint.",
+        "Passez au mode durable dès aujourd'hui": "Switch to sustainable mode today",
+        "Met en relation les expéditeurs et les transporteurs": "Connects shippers and carriers to save costs for shippers, increase carrier revenues, and reduce CO2 emissions into the environment.",
+        "Trouvez votre transporteur fiable en moins de 3 minutes": "Find your reliable carrier in less than <mark>3 minutes</mark>",
+        "Estimation des coûts immédiate grâce à la fonctionnalité Bidding": "Immediate cost estimation thanks to the <b>Bidding</b> feature",
+        "Notifications instantanées des transporteurs correspondant à vos demandes grâce à la fonctionnalité Matching Automatique": "Instant notifications of carriers matching your requests thanks to the Automatic Matching feature",
+        "Contrôle total sur vos cargaisons à chaque étape du trajet grâce au Suivi en temps réel via GPS": "Full control over your cargo at every stage of the journey with real-time GPS tracking",
+        "Un parcours clair et rapide : sélectionnez une offre, encherissez, et chargez": "A clear and fast process: select an offer, bid, and load.",
+        "Un matching intelligent pour trouver les chargements adaptés à vos itinéraires et capacités": "Smart matching to find loads suited to your routes and capacities.",
+        "Une multitude de chargements disponibles pour réduire vos trajets à vide": "A multitude of available loads to reduce your empty trips.",
+        "Découvrez comment ça fonctionne": "Discover how it works",
+        "CloudFret s'engage envers la qualité et l'amélioration continue": "CloudFret is committed to quality and continuous improvement, environmental protection and sustainable development, as well as workplace safety and health."
+    },
+    "Blog": {
+        "articles-list": [
+            {
+                "image": "/images/home/blog-1.png",
+                "title": "CloudFret Unveils Its New Exclusive Feature!",
+                "description": "At CloudFret, our passion is to make life easier for transporters and shippers. Aware of the challenges they face, we have developed"
+            },
+            {
+                "image": "/images/home/blog-2.png",
+                "title": "CLOUDFRET: At the Top of Innovators in Africa",
+                "description": "The African entrepreneurial ecosystem is thriving with innovation, and at the heart of this revolution, CLOUDFRET stands out as one of the most innovative African startups"
+            },
+            {
+                "image": "/images/home/blog-3.png",
+                "title": "€10M in Orders for the Startup CLOUDFRET",
+                "description": "The startup CloudFret continues its growth by securing an order book worth €10M to digitize road freight. Several major clients"
+            }
+        ],
+        "Lire la suite": "Read more"
+    },
+    "Testimonials": {
+        "testimonials-list": [
+            {
+                "avatar": "/images/home/avatar-1.png",
+                "name": "Jessie Owner",
+                "job": "Founder, XYZ Company",
+                "text": "“If you haven’t tried Whitepace yet, you need to give it a shot for your next event. It’s so easy and intuitive to set up a new event, and if you need any help, their customer service is seriously amazing.”",
+                "rating": 5
+            },
+            {
+                "avatar": "/images/home/avatar-2.png",
+                "name": "Jessie Owner",
+                "job": "Founder, XYZ Company",
+                "text": "“If you haven’t tried Whitepace yet, you need to give it a shot for your next event. It’s so easy and intuitive to set up a new event, and if you need any help, their customer service is seriously amazing.”",
+                "rating": 4
+            },
+            {
+                "avatar": "/images/home/avatar-3.png",
+                "name": "Jessie Owner",
+                "job": "Founder, XYZ Company",
+                "text": "“If you haven’t tried Whitepace yet, you need to give it a shot for your next event. It’s so easy and intuitive to set up a new event, and if you need any help, their customer service is seriously amazing.”",
+                "rating": 5
+            },
+            {
+                "avatar": "/images/home/avatar-1.png",
+                "name": "Jessie Owner",
+                "job": "Founder, XYZ Company",
+                "text": "“If you haven’t tried Whitepace yet, you need to give it a shot for your next event. It’s so easy and intuitive to set up a new event, and if you need any help, their customer service is seriously amazing.”",
+                "rating": 5
+            }
+        ]
+    },
+    "Transporters": {
+        "Transporteurs": "Transporters",
+        "Choisissez le chargement adéquat et garantissez votre paiement": "Choose the right load and secure your payment",
+        "Rejoingez la communauté des transporteurs": "Join the community of transporters",
+        "Transporteurs, faites le choix intelligent avec Cloudfret": "Transporters, make the smart choice with Cloudfret – Access shipments from reliable shippers, reduce empty trips, and optimize fleet management to maximize your revenue.",
+        "advantages-list": [
+            {
+                "icon": "/images/transporters/icon-1.svg",
+                "text": "Zero empty returns"
+            },
+            {
+                "icon": "/images/transporters/icon-2.svg",
+                "text": "Simplicity and speed"
+            },
+            {
+                "icon": "/images/transporters/icon-3.svg",
+                "text": "Guaranteed fast payment"
+            }
+        ],
+        "functionalities-list": [
+            {
+                "icon": "/images/transporters/bidding.svg",
+                "text": "Bidding"
+            },
+            {
+                "icon": "/images/transporters/disponibility.svg",
+                "text": "Truck availability"
+            },
+            {
+                "icon": "/images/transporters/matching.svg",
+                "text": "Automatic Matching"
+            }
+        ],
+        "mobile-items": [
+            {
+                "title": "Bidding",
+                "subtitle": "Explore and negotiate load offers with ease",
+                "icon": "/images/transporters/bidding.svg",
+                "items": [
+                    {
+                        "text": "Choose the load offer that suits you",
+                        "image": "/images/transporters/phone-1.png"
+                    },
+                    {
+                        "text": "Propose your price",
+                        "image": "/images/transporters/phone-2.png"
+                    },
+                    {
+                        "text": "Contact the client and take charge of the transport",
+                        "image": "/images/transporters/phone-3.png"
+                    }
+                ],
+                "buttonText": "Discover load offers"
+            },
+            {
+                "title": "Truck availability",
+                "subtitle": "Receive client offers in just 2 steps",
+                "icon": "/images/transporters/disponibility.svg",
+                "items": [
+                    {
+                        "text": "Choose the load offer that suits you",
+                        "image": "/images/transporters/phone-4.png"
+                    },
+                    {
+                        "text": "Propose your price",
+                        "image": "/images/transporters/phone-5.png"
+                    }
+                ],
+                "buttonText": "Start now"
+            },
+            {
+                "title": "Automatic Matching",
+                "subtitle": "Smart technology at your service",
+                "icon": "/images/transporters/matching.svg",
+                "items": [
+                    {
+                        "text": "An instant notification as soon as a load offer matches your availability",
+                        "image": "/images/transporters/phone-6.png"
+                    }
+                ],
+                "buttonText": "Never miss an opportunity again"
+            }
+        ],
+        "N'attendez plus, téléchargez l'application et profitez d'offres exclusives": "Don't wait any longer, download the app and enjoy exclusive offers",
+        "Téléchargez l'application": "Download the app"
+    },
+    "Senders": {
+        "Expéditeurs": "Shippers",
+        "Transportez vos marchandises partout, en toute simplicité et efficacité": "Transport your goods anywhere with ease and efficiency",
+        "Rejoingez la communauté des chargeurs": "Join the community of shippers",
+        "Accédez instantanément à un réseau de transporteurs soigneusement sélectionnés": "Instantly access a network of carefully selected transporters for their reliability and expertise. Whether you need one-time or regular transport, the Cloudfret app allows you to find the ideal solution in just a few clicks.",
+        "advantages-list": [
+            {
+                "icon": "/images/senders/icon-1.svg",
+                "text": "Instant quotes"
+            },
+            {
+                "icon": "/images/senders/icon-2.svg",
+                "text": "24/7 customer service"
+            },
+            {
+                "icon": "/images/senders/icon-3.svg",
+                "text": "Total transparency"
+            }
+        ],
+        "functionalities-list": [
+            {
+                "icon": "/images/senders/bidding-dark.svg",
+                "text": "Bidding"
+            },
+            {
+                "icon": "/images/senders/disponibility-dark.svg",
+                "text": "Truck availability"
+            },
+            {
+                "icon": "/images/senders/matching-dark.svg",
+                "text": "Automatic Matching"
+            }
+        ],
+        "mobile-items": [
+            {
+                "title": "Bidding",
+                "subtitle": "Manage your shipments with simplicity and efficiency",
+                "icon": "/images/senders/bidding.svg",
+                "items": [
+                    {
+                        "text": "Publish your shipping offer in a few clicks.",
+                        "image": "/images/senders/phone-1.png"
+                    },
+                    {
+                        "text": "Receive real-time proposals from reliable transporters.",
+                        "image": "/images/senders/phone-2.png"
+                    },
+                    {
+                        "text": "Negotiate and choose the transporter that best meets your needs.",
+                        "image": "/images/senders/phone-3.png"
+                    }
+                ],
+                "buttonText": "Discover shipping offers"
+            },
+            {
+                "title": "Truck availability",
+                "subtitle": "Quickly find the ideal truck for your load in 2 clicks",
+                "icon": "/images/senders/disponibility.svg",
+                "items": [
+                    {
+                        "text": "Filter by city, truck type, and date to find the options that meet your needs.",
+                        "image": "/images/senders/phone-4.png"
+                    },
+                    {
+                        "text": "Directly contact transporters to confirm availability and negotiate.",
+                        "image": "/images/senders/phone-5.png"
+                    },
+                    {
+                        "image": "/images/senders/phone-6.png"
+                    }
+                ],
+                "buttonText": "Start now"
+            },
+            {
+                "title": "Automatic Matching",
+                "subtitle": "Smart technology at your service",
+                "icon": "/images/senders/matching.svg",
+                "items": [
+                    {
+                        "text": "Instant notification as soon as a shipping offer matches your availability",
+                        "image": "/images/senders/phone-6.png"
+                    }
+                ],
+                "buttonText": "Never miss an opportunity again"
+            }
+        ],
+        "N'attendez plus, téléchargez l'application et profitez d'offres exclusives": "Don't wait any longer, download the app and enjoy exclusive offers",
+        "Téléchargez l'application": "Download the app"
+    },
+    "Routes": {
+        "routes-list": [
+            {
+                "date": "1 hour ago",
+                "fromCity": "Barcelona",
+                "fromCountry": "es",
+                "toCity": "Casablanca",
+                "toCountry": "ma",
+                "type": "Auto parts",
+                "weight": "20000 kg",
+                "loadingData": "2024-12-01",
+                "trailers": [
+                    "Refrigerated"
+                ]
+            },
+            {
+                "date": "2 hours ago",
+                "fromCity": "Paris",
+                "fromCountry": "fr",
+                "toCity": "Casablanca",
+                "toCountry": "ma",
+                "type": "Automotive",
+                "weight": "14000 kg",
+                "loadingData": "2024-12-01",
+                "trailers": [
+                    "Tarped",
+                    "Mega Tarped"
+                ]
+            },
+            {
+                "date": "3 hours ago",
+                "fromCity": "Madrid",
+                "fromCountry": "es",
+                "toCity": "Casablanca",
+                "toCountry": "ma",
+                "type": "Meats",
+                "weight": "20000 kg",
+                "loadingData": "2024-12-01",
+                "trailers": [
+                    "Refrigerated"
+                ]
+            },
+            {
+                "date": "4 hours ago",
+                "fromCity": "Lisbon",
+                "fromCountry": "pt",
+                "toCity": "Casablanca",
+                "toCountry": "ma",
+                "type": "Auto parts",
+                "weight": "20000 kg",
+                "loadingData": "2024-12-01",
+                "trailers": [
+                    "Refrigerated"
+                ]
+            }
+        ],
+        "Date de chargement": "Loading date",
+        "Remorques": "Trailers",
+        "buttonText": "Book"
+    },
+    "Green": {
+        "Cloudfret Green": "Cloudfret Green",
+        "Votre Partenaire pour des Solutions de Transport Durables": "Your Partner for Sustainable Transport Solutions",
+        "La première solution de transport intra-zone 100% électrique Accessible à Tous": "<mark>The first</mark> 100% electric <mark>intra-zone</mark> transport solution accessible to all",
+        "Demandez votre devis gratuit": "Request your free quote",
+        "advantages-list": [
+            {
+                "icon": "/images/green/advantage-1.svg",
+                "text": "Electric mobility at the price of diesel"
+            },
+            {
+                "icon": "/images/green/advantage-2.svg",
+                "text": "Alignment with your CSR objectives"
+            },
+            {
+                "icon": "/images/green/advantage-3.svg",
+                "text": "Tax savings"
+            },
+            {
+                "icon": "/images/green/advantage-4.svg",
+                "text": "Advanced Intra-Zone Transport"
+            }
+        ],
+        "Tonnes": "Tons",
+        "Notre flotte 100% électrique est alimentée par des panneaux solaires": "Our <b>100% electric</b> fleet is powered by solar panels, ensuring a truly <b>eco-friendly</b> logistics solution capable of handling urgent, heavy, and dedicated deliveries, available <b>24/7</b> for maximum reliability.",
+        "Passez au transport durable": "Switch to sustainable transport",
+        "Nos superchargeurs sont installés dans des zones stratégiques": "<b>Our superchargers</b> are installed in strategic locations and powered by a high-capacity photovoltaic plant <b>(2 megawatts)</b>, ensuring truly sustainable transport without relying on fossil fuel-based electricity.",
+        "Demandez une démo": "Request a demo",
+        "Des Bénéfices Concrets et Mesurables": "Tangible and Measurable Benefits",
+        "Cloudfret Green n'est pas seulement une solution de transport durable": "Cloudfret Green is not just a sustainable transport solution, but a tangible and measurable tool to help you achieve your environmental and tax goals while optimizing your operational costs.",
+        "benefits-list": [
+            {
+                "image": "/images/green/benefit-1.png",
+                "text": "<b>Reduction</b> of <b>CO</b>₂ emissions and <mark>carbon tax</mark>"
+            },
+            {
+                "image": "/images/green/benefit-2.png",
+                "text": "<b>Reduction</b> of tons of <b>CO</b>₂ per year"
+            },
+            {
+                "image": "/images/green/benefit-3.png",
+                "text": "Improvement of <b>CSR reports</b> with documented <b>CO</b>₂ savings"
+            }
+        ],
+        "Obtenez une estimation des économies de CO₂": "Get an estimate of CO₂ savings",
+        "partners-list": [
+            {
+                "image": "/images/green/partner-1.png",
+                "text": "A global leader in sustainable transport, <b>Volvo</b> supports Cloudfret Green with its high-performance electric trucks, ensuring a robust and reliable fleet for efficient and eco-friendly transport solutions within industrial zones."
+            },
+            {
+                "image": "/images/green/partner-2.png",
+                "text": "A key player in Morocco's industrial development, <b>MEDZ</b> helps Cloudfret Green provide ideal infrastructure for sustainable transport solutions in free zones."
+            }
+        ],
+        "Nom et prénom": "Full name",
+        "Nom de l'entreprise": "Company name",
+        "E-mail": "Email",
+        "Numéro de tél": "Phone number",
+        "Envoyer": "Send"
+    },
+    "Freight-Forwarding": {
+        "Freight Forwarding": "Freight Forwarding",
+        "Votre Freight Forwarder de Confiance pour des Expéditions Simplifiées": "Your Trusted Freight Forwarder for Simplified Shipments",
+        "Votre devis personnalisé gratuit en 3 minutes": "Your free personalized quote in 3 minutes",
+        "Cloudfret vous offre une gestion complète de vos expéditions internationales et nationales": "<strong>Cloudfret</strong> offers you a <b>comprehensive management</b> of your international and national shipments, from <b>rate negotiation</b> to <b>delivery tracking</b>. Thanks to our <b>expertise</b> and a network of <b>+4000 trusted carriers</b>, we ensure efficient logistics solutions tailored to your needs.",
+        "advantages-list": [
+            {
+                "icon": "/images/freight-forwarding/advantage-1.svg",
+                "text": "Simplified Management",
+                "description": "<strong>Cloudfret</strong> handles all stages of your shipments. From organization to delivery, we take care of everything."
+            },
+            {
+                "icon": "/images/freight-forwarding/advantage-2.svg",
+                "text": "Best Market Rates",
+                "description": "We <strong>negotiate</strong> preferential rates with our partners to provide you with <strong>more competitive</strong> logistics solutions."
+            },
+            {
+                "icon": "/images/freight-forwarding/advantage-3.svg",
+                "text": "Real-Time Tracking and Full Visibility",
+                "description": "You have <strong>full access</strong> to real-time shipment status, from pickup to delivery."
+            }
+        ],
+        "Prêt à Optimiser vos Expéditions ?": "Ready to Optimize Your Shipments?",
+        "benefits-list": [
+            {
+                "icon": "/images/freight-forwarding/benefit-1.svg",
+                "text": "Full Visibility and Control"
+            },
+            {
+                "icon": "/images/freight-forwarding/benefit-2.svg",
+                "text": "Cost Reduction and Profitability Improvement"
+            },
+            {
+                "icon": "/images/freight-forwarding/benefit-3.svg",
+                "text": "Time Savings and Efficiency"
+            },
+            {
+                "icon": "/images/freight-forwarding/benefit-4.svg",
+                "text": "Shipment Reliability and Security"
+            }
+        ],
+        "Faites le choix d’une gestion logistique fluide et optimisée  Maintenant": "Choose a Smooth and Optimized Logistics Management Now"
+    },
+    "Insurance": {
+        "Assurance": "Insurance",
+        "Protégez votre flotte avec notre assurance automobile exclusive": "Protect your fleet with our exclusive auto insurance<small>Save up to 40% and enjoy installment payments!</small>",
+        "Profitez de tarifs avantageux dès maintenant": "Take advantage of great rates now",
+        "advantages-list": [
+            {
+                "icon": "/images/insurance/advantage-1.svg",
+                "text": "Unbeatable rates",
+                "description": "Enjoy a <strong>discount</strong> of up to <strong>40%</strong> on coverage compared to other insurance offers available on the market."
+            },
+            {
+                "icon": "/images/insurance/advantage-2.svg",
+                "text": "A full range of assistance services",
+                "description": "Benefit from <strong>comprehensive assistance</strong> in Morocco and Europe in case of a breakdown or accident with your vehicle."
+            },
+            {
+                "icon": "/images/insurance/advantage-3.svg",
+                "text": "Advanced fleet management solution",
+                "description": "An advanced and secure <strong>fleet management</strong> solution is at your disposal, offering precise vehicle tracking and <strong>optimal cost control</strong>."
+            }
+        ],
+        "Économisez jusqu'a 40%": "Save up to 40%",
+        "En cas de panne ou d'accident de votre véhicule": "In case of a breakdown or accident with your vehicle, benefit from comprehensive assistance in Morocco and Europe, including:",
+        "assistance-list": [
+            {
+                "icon": "/images/insurance/assistance-1.svg",
+                "text": "Help with drafting an amicable accident report"
+            },
+            {
+                "icon": "/images/insurance/assistance-2.svg",
+                "text": "Towing and lifting in case of breakdown or accident"
+            },
+            {
+                "icon": "/images/insurance/assistance-3.svg",
+                "text": "Passenger transport in case of breakdown or accident"
+            }
+        ],
+        "Et ce n’est pas tout ! Nous allons encore plus loin pour votre tranquillité d'esprit": "And that's not all! We go even further for your peace of mind",
+        "Exclusive": "Exclusive",
+        "transporters-advantages-list": [
+            {
+                "icon": "/images/insurance/transporters-advantage-1.svg",
+                "text": "Coverage of hotel expenses during repairs in case of breakdown or accident"
+            },
+            {
+                "image": "/images/insurance/transporters-advantage.jpg"
+            },
+            {
+                "icon": "/images/insurance/transporters-advantage-2.svg",
+                "text": "Guidance and advice for transported goods in case of breakdown or accident"
+            }
+        ],
+        "Intéressé ? contactez-nous dès maintenant": "Interested? Contact us now",
+        "Spécialement conçue pour les transporteurs partenaires de Cloudfret": "Specially designed for <mark>Cloudfret partner transporters</mark>",
+        "Cette offre répond aux besoins des professionnels de la route": "This offer meets the needs of road professionals by providing personalized assistance solutions and insurance coverage that meets the highest standards.",
+        "N'attendez-plus !": "Don't wait any longer!",
+        "Remplissez le formulaire ci-dessous et notre équipe vous contactera": "Fill out the form below, and our team will contact you quickly to discuss your specific needs.",
+        "Nom et Prénom": "Full Name",
+        "Nom de l'entreprise": "Company Name",
+        "Ville": "City",
+        "Téléphone": "Phone",
+        "Email": "Email",
+        "Nombre de remorques": "Number of Trailers",
+        "Nombre de camions": "Number of Trucks",
+        "Compagnie d'assurance actuelle": "Current Insurance Company",
+        "Envoyer ma demande": "Submit My Request"
+    }    
+}

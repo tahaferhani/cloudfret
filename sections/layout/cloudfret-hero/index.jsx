@@ -1,7 +1,8 @@
 import Button from "@/components/button"
-import "./style.css"
 import clsx from "clsx"
 import { Fade } from "react-awesome-reveal"
+import parse from "html-react-parser"
+import "./style.css"
 
 /**
  * CloudfretHero component
@@ -27,7 +28,7 @@ const CloudfretHero = ({ backgroud, title, titleColor, titleBackground, icon, su
             <img src={icon} alt="icon" />
             {title}
           </h1>
-          <p className="subtitle">{subtitle}</p>
+          <p className="subtitle">{parse(subtitle)}</p>
           {
             buttonText && (
               <Button color={buttonColor} textColor={isButtonDark && "dark"}>{buttonText}</Button>

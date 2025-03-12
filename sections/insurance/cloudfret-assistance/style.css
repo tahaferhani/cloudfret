@@ -1,0 +1,54 @@
+#cloudfret-assistance {
+    padding: var(--section-padding);
+    background-color: #F3FAFE;
+
+    .subtitle {
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        color: var(--color-3);
+        margin: 45px 0 75px;
+    }
+
+    .items {
+        margin-top: 130px;
+        padding: 0 65px;
+    }
+
+    .row {
+        & > * {
+            display: flex;
+
+            &:nth-child(2) {
+                .assistance {
+                    background-color: rgba(var(--color-1-rgb), 0.2);
+                }
+            }
+
+            &:nth-child(3) {
+                .assistance {
+                    background-color: rgba(var(--color-1-rgb), 0.3);
+                }
+            }
+        }
+    }
+
+    .assistance {
+        padding: 30px;
+        border-radius: 18px;
+        background-color: rgba(var(--color-1-rgb), 0.1);
+        font-weight: 700;
+        color: var(--color-3);
+        text-align: center;
+        text-transform: uppercase;
+
+        .image {
+            width: 166px;
+            height: 166px;
+            background: url("/images/insurance/bg-shape.svg") no-repeat center/100% 100%;
+            text-align: center;
+            padding-top: 12px;
+            margin: -90px auto 30px;
+        }
+    }
+}
