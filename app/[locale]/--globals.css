@@ -1,0 +1,116 @@
+:root {
+  --color-1: #00b6f0;
+  --color-1-rgb: 0, 182, 240;
+  --color-2: #00cbb8;
+  --color-2-rgb: 0, 203, 184;
+  --color-3: #005494;
+  --color-3-rgb: 0, 84, 148;
+  --color-3-dark: #013F6F;
+  --color-4: #FFCB2A;
+  --color-4-rgb: 255, 203, 42;
+  --white: #ffffff;
+
+  --text-color: #2F327D;
+  --text-color-light: #696984;
+  --text-color-dark: #01252A;
+
+  --offer-banner-bg: #FFCB2A;
+  --smart-network-bg: #F3F8FF;
+
+  --font-primary: var(--font-montserrat);
+  --font-secondary: var(--font-poppins);
+
+  --section-padding: 100px 0;
+}
+
+html {
+  font-size: 95%;
+}
+
+body {
+  font-family: var(--font-secondary);
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+b {
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-10 {
+  margin-top: 10px
+}
+
+.mt-20 {
+  margin-top: 20px
+}
+
+.mt-30 {
+  margin-top: 30px
+}
+
+.mt-40 {
+  margin-top: 40px
+}
+
+.mb-10 {
+  margin-bottom: 10px
+}
+
+.mb-20 {
+  margin-bottom: 20px
+}
+
+.mb-30 {
+  margin-bottom: 30px
+}
+
+.mb-40 {
+  margin-bottom: 40px
+}
+
+.container {
+  max-width: 1150px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 100%;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 12px 18px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &::placeholder {
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
