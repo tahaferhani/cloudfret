@@ -17,7 +17,8 @@
 
         a {
             img {
-                height: 60px;
+                display: block;
+                height: 65px;
             }
         }
     }

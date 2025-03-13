@@ -2,7 +2,7 @@ import Heading from "@/components/heading";
 import CloudfretTestimonials from "@/sections/home/cloudfret-testimonials";
 import CloudfretHero from "@/sections/layout/cloudfret-hero";
 import CloudfretAdvantages from "@/sections/senders/cloudfret-advantages";
-import CloudfretAppstore from "@/sections/senders/cloudfret-appstore";
+import CloudfretAppstore from "@/sections/transporters/cloudfret-appstore";
 import CloudfretFunctionalities from "@/sections/senders/cloudfret-functionalities";
 import CloudfretMobile from "@/sections/senders/cloudfret-mobile";
 import CloudfretRoutes from "@/sections/senders/cloudfret-routes";

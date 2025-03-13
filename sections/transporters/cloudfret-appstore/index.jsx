@@ -3,9 +3,11 @@ import { useTranslations } from 'next-intl';
 import Button from '@/components/button';
 import "./style.css";
 import { Fade } from 'react-awesome-reveal';
+import { getLocale } from 'next-intl/server';
 
-function CloudfretAppstore({ title }) {
+async function CloudfretAppstore({ title }) {
   const t = useTranslations("Transporters");
+  const locale = await getLocale();
 
   return (
     <section id="cloudfret-appstore">
@@ -19,10 +21,10 @@ function CloudfretAppstore({ title }) {
 
         <div className="buttons">
           <a href="#" target="_blank">
-            <img src="/images/google-play-fr.png" alt="Apple Store" />
+            <img src={`/images/google-play-${locale}.svg`} alt="Apple Store" />
           </a>
           <a href="#" target="_blank">
-            <img src="/images/appstore-fr.png" alt="Google Play" />
+            <img src={`/images/appstore-${locale}.svg`} alt="Google Play" />
           </a>
         </div>
 
