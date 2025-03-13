@@ -41,13 +41,9 @@
                     },
                     {
                         "title": "Offre Carburant Cloudfret",
-                        "link": "#"
+                        "link": "/fuel"
                     }
                 ]
-            },
-            {
-                "title": "Blog",
-                "link": "#"
             }
         ],
         "Rejoingez la communauté": "Rejoingez la communauté"
@@ -82,7 +78,13 @@
         "Trouvez l'assurance parfaitement adaptée à vos besoins": "Trouvez l'assurance parfaitement <mark>adaptée</mark> à vos besoins",
         "Services d'assistance complète": "Services d'assistance <mark>complète</mark>",
         "Avantages exclusifs pour les transporteurs": "<mark>Avantages exclusifs</mark> pour les transporteurs",
-        "Qui peut bénéficier de cette offre d'assurance et assistance ?": "Qui peut bénéficier de cette offre <mark>d'assurance</mark> et <mark>assistance</mark> ?"
+        "Qui peut bénéficier de cette offre d'assurance et assistance ?": "Qui peut bénéficier de cette offre <mark>d'assurance</mark> et <mark>assistance</mark> ?",
+        "Un atout indispensable pour les professionnels du transport": "Un atout <mark>indispensable</mark> pour les <mark>professionnels du transport</mark>",
+        "Qui peut bénéficier de l'offre Carburant CloudFret ?": "Qui peut bénéficier de l'offre <mark>Carburant CloudFret</mark> ?",
+        "Pourquoi opter pour l'offre Carburant CloudFret?": "Pourquoi opter pour l'offre <mark>Carburant</mark> CloudFret?",
+        "Comment ça marche?": "Comment ça <mark>marche</mark>?",
+        "L'offre Carburant CloudFret vous facilite la vie !": "L'offre Carburant CloudFret vous <mark>facilite</mark> la vie !",
+        "FAQ": "FAQ"
     },
     "Home": {
         "Simplifiez votre logistique": "Simplifiez votre logistique grâce à une bourse de fret innovante. Réduisez vos coûts, éliminez les trajets à vide et trouvez rapidement des partenaires fiables parmi un réseau de transporteurs et chargeurs marocains et internationaux.",
@@ -620,5 +622,77 @@
         "Nombre de camions": "Nombre de camions",
         "Compagnie d'assurance actuelle": "Compagnie d'assurance actuelle",
         "Envoyer ma demande": "Envoyer ma demande"
+    },
+    "Fuel": {
+        "Offre Carburant Cloudfret": "Offre Carburant Cloudfret",
+        "Conduisez plus loin, dépensez moins !": "Conduisez plus loin, dépensez moins !",
+        "Optimisée pour les besoins des petites et moyennes entreprises de transport": "Optimisée pour les besoins des petites et moyennes entreprises de transport, cette offre est une solution intégrale pour la gestion des dépenses en carburant tout en bénéficiant d'avantages exclusifs et de conditions de paiement Allongé !",
+        "Exclusivement conçue pour les petits et moyens transporteurs partenaires de CloudFret": "Exclusivement conçue pour les <b>petits et moyens transporteurs partenaires</b> de <b>CloudFret</b>. C'est une clé vers une efficacité accrue, des économies sur chaque litre de carburant et, en fin de compte, une route vers le succès.<br/>Si vous n'êtes pas encore partenaire de CloudFret, inscrivez vous dès maintenant pour débloquer les avantages exclusifs réservés à notre communauté !",
+        "Inscrivez-vous": "Inscrivez-vous",
+        "offers-list": [
+            {
+                "title": "Des délais de paiement allongés",
+                "description": "Permettant de gérez votre trésorerie avec aisance",
+                "icon": "/images/fuel/offer-1.svg",
+                "card": "/images/fuel/empty-card-1.png"
+            },
+            {
+                "title": "Réduction sur le carburant",
+                "description": "Economisez à chaque plein",
+                "icon": "/images/fuel/offer-2.svg",
+                "card": "/images/fuel/empty-card-2.png"
+            },
+            {
+                "title": "Gestion simplifiée",
+                "description": "Suivi facile des dépenses",
+                "icon": "/images/fuel/offer-3.svg",
+                "card": "/images/fuel/empty-card-3.png"
+            }
+        ],
+        "steps-list": [
+            {
+                "title": "Inscription et Engagement",
+                "description": "Commencez par vous inscrire via l'application CloudFret.<br/><br/>Augmentez votre éligibilité en participant activement aux opportunités de transport proposées",
+                "image": "/images/fuel/step-1.png",
+                "buttonText": "Inscrivez-vous maintenant"
+            },
+            {
+                "title": "Expression d'intérêt",
+                "description": "Exprimez votre intérêt en remplissant le formulaire pour nous permettre de mieux comprendre vos besoins",
+                "image": "/images/fuel/step-2.png",
+                "buttonText": "Remplissez le formulaire"
+            },
+            {
+                "title": "Sélection et Activation",
+                "description": "Une fois sélectionné, vous recevrez votre offre carburant et commencerez immédiatement à économiser sur chaque litre de carburant acheté, allégeant ainsi votre charge financière.",
+                "image": "/images/fuel/step-3.png"
+            }
+        ],
+        "faq-list": [
+            {
+                "question": "Qui peut bénéficier de l'offre Carburant CloudFret ?",
+                "answer": "Cet offre est exclusivement disponible pour les petits et moyens transporteurs partenaires de CloudFret.<br/>Si vous n'êtes pas encore partenaire, nous vous invitons à vous inscrire dès maintenant pour profiter de nos offres."
+            },
+            {
+                "question": "Quels sont les principaux avantages de l'offre Carburant CloudFret ?",
+                "answer": "Les bénéficiaires de l'offre profitent de réductions sur le carburant et d'un délai de paiement étendu jusqu'à 60 jours pour une gestion financière optimisée."
+            },
+            {
+                "question": "Comment puis-je être éligible à l'Offre Carburant CloudFret ?",
+                "answer": "L'inscription est simple et intuitive via l'application CloudFret. Suivez les instructions pour renforcer votre éligibilité et rejoignez notre réseau de transporteurs partenaires."
+            },
+            {
+                "question": "Comment l'Offre Carburant CloudFret contribue-t-elle à la durabilité ?",
+                "answer": "Nous appuyons activement les transporteurs dans l'optimisation de leurs ressources, ancrant nos efforts dans une vision de durabilité et d'innovation numérique"
+            },
+            {
+                "question": "Y a-t-il des frais associés à l'utilisation de l'Offre Carburant CloudFret ?",
+                "answer": "L'obtention de l'offre est exempte de frais. Notre objectif est de fournir une solution accessible et avantageuse pour nos transporteurs partenaires, sans coûts cachés"
+            },
+            {
+                "question": "En cas de problème ou de question, comment puis-je contacter le support ?",
+                "answer": "Notre équipe de support est disponible pour vous assister. Vous pouvez nous contacter via notre site web, ou par téléphone au numéro fourni sur notre plateforme de contact."
+            }
+        ]
     }
 }

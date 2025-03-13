@@ -1,0 +1,68 @@
+#cloudfret-steps {
+    padding: var(--section-padding);
+    counter-reset: step;
+
+    .step {
+        margin-top: 80px;
+
+        .row {
+            align-items: center;
+        }
+
+        .content {
+            padding-left: 100px;
+            position: relative;
+            counter-increment: step;
+
+            &::before {
+                content: counter(step);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: var(--text-color);
+                font-family: var(--font-primary);
+                font-size: 48px;
+                font-weight: 800;
+                color: var(--color-2);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .title {
+            margin-bottom: 26px;
+        }
+
+        .image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            &::before {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                width: 326px;
+                height: 326px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-40%, -50%);
+                background: rgba(var(--color-2-rgb), 0.41);
+                filter: blur(50px);
+            }
+
+            img {
+                max-width: 414px;
+                max-height: 570px;
+            }
+        }
+
+        .button {
+            margin-top: 50px;
+        }
+    }
+}

@@ -8,7 +8,7 @@ import CloudfretMobile from "@/sections/transporters/cloudfret-mobile";
 import CloudfretRoutes from "@/sections/transporters/cloudfret-routes";
 import { useTranslations } from "next-intl";
 
-export default function TransportersPage() {
+const TransportersPage = () => {
   const t = useTranslations("Transporters");
 
   return (
@@ -32,3 +32,5 @@ export default function TransportersPage() {
     </div>
   );
 }
+
+export default TransportersPage;

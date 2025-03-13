@@ -7,7 +7,7 @@ import CloudfretTrucks from "@/sections/green/cloudfret-trucks";
 import CloudfretHero from "@/sections/layout/cloudfret-hero";
 import { useTranslations } from "next-intl";
 
-export default function TransportersPage() {
+const GreenPage = () => {
   const t = useTranslations("Green");
 
   return (
@@ -27,3 +27,5 @@ export default function TransportersPage() {
     </div>
   );
 }
+
+export default GreenPage;

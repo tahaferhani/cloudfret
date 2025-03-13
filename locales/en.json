@@ -41,13 +41,9 @@
                     },
                     {
                         "title": "Cloudfret Fuel Offer",
-                        "link": "#"
+                        "link": "/fuel"
                     }
                 ]
-            },
-            {
-                "title": "Blog",
-                "link": "#"
             }
         ],
         "Rejoingez la communauté": "Join the community"
@@ -82,7 +78,13 @@
         "Trouvez l'assurance parfaitement adaptée à vos besoins": "Find the <mark>perfectly tailored</mark> insurance for your needs",
         "Services d'assistance complète": "<mark>Comprehensive</mark> assistance services",
         "Avantages exclusifs pour les transporteurs": "<mark>Exclusive benefits</mark> for carriers",
-        "Qui peut bénéficier de cette offre d'assurance et assistance ?": "Who can benefit from this <mark>insurance</mark> and <mark>assistance</mark> offer?"
+        "Qui peut bénéficier de cette offre d'assurance et assistance ?": "Who can benefit from this <mark>insurance</mark> and <mark>assistance</mark> offer?",
+        "Un atout indispensable pour les professionnels du transport": "An <mark>essential asset</mark> for transport professionals",
+        "Qui peut bénéficier de l'offre Carburant CloudFret ?": "Who can benefit from the <mark>CloudFret Fuel</mark> offer?",
+        "Pourquoi opter pour l'offre Carburant CloudFret?": "Why choose the CloudFret <mark>Fuel</mark> offer?",
+        "Comment ça marche?": "How does it <mark>work</mark>?",
+        "L'offre Carburant CloudFret vous facilite la vie !": "The CloudFret Fuel offer makes your life <mark>easier</mark>!",
+        "FAQ": "FAQ"
     },
     "Home": {
         "Simplifiez votre logistique": "Simplify your logistics with an innovative freight exchange. Reduce costs, eliminate empty trips, and quickly find reliable partners among a network of Moroccan and international carriers and shippers.",
@@ -656,5 +658,77 @@
         "Nombre de camions": "Number of Trucks",
         "Compagnie d'assurance actuelle": "Current Insurance Company",
         "Envoyer ma demande": "Submit My Request"
-    }    
+    },
+    "Fuel": {
+        "Offre Carburant Cloudfret": "Cloudfret Fuel Offer",
+        "Conduisez plus loin, dépensez moins !": "Drive further, spend less!",
+        "Optimisée pour les besoins des petites et moyennes entreprises de transport": "Optimized for the needs of small and medium-sized transport companies, this offer is a comprehensive solution for managing fuel expenses while benefiting from exclusive advantages and extended payment conditions!",
+        "Exclusivement conçue pour les petits et moyens transporteurs partenaires de CloudFret": "Exclusively designed for <b>small and medium-sized transport partners</b> of <b>CloudFret</b>. It is a key to increased efficiency, savings on every liter of fuel, and ultimately, a road to success.<br/>If you are not yet a CloudFret partner, sign up now to unlock the exclusive benefits reserved for our community!",
+        "Inscrivez-vous": "Sign up",
+        "offers-list": [
+            {
+                "title": "Extended payment terms",
+                "description": "Manage your cash flow with ease",
+                "icon": "/images/fuel/offer-1.svg",
+                "card": "/images/fuel/empty-card-1.png"
+            },
+            {
+                "title": "Fuel discount",
+                "description": "Save on every refill",
+                "icon": "/images/fuel/offer-2.svg",
+                "card": "/images/fuel/empty-card-2.png"
+            },
+            {
+                "title": "Simplified management",
+                "description": "Easily track expenses",
+                "icon": "/images/fuel/offer-3.svg",
+                "card": "/images/fuel/empty-card-3.png"
+            }
+        ],
+        "steps-list": [
+            {
+                "title": "Registration and Commitment",
+                "description": "Start by registering via the CloudFret app.<br/><br/>Increase your eligibility by actively participating in the transport opportunities offered",
+                "image": "/images/fuel/step-1.png",
+                "buttonText": "Sign up now"
+            },
+            {
+                "title": "Expression of interest",
+                "description": "Express your interest by filling out the form to help us better understand your needs",
+                "image": "/images/fuel/step-2.png",
+                "buttonText": "Fill out the form"
+            },
+            {
+                "title": "Selection and Activation",
+                "description": "Once selected, you will receive your fuel offer and immediately start saving on every liter of fuel purchased, thereby reducing your financial burden.",
+                "image": "/images/fuel/step-3.png"
+            }
+        ],
+        "faq-list": [
+            {
+                "question": "Who can benefit from the CloudFret Fuel Offer?",
+                "answer": "This offer is exclusively available for small and medium-sized transport partners of CloudFret.<br/>If you are not yet a partner, we invite you to sign up now to take advantage of our offers."
+            },
+            {
+                "question": "What are the main benefits of the CloudFret Fuel Offer?",
+                "answer": "Offer beneficiaries enjoy fuel discounts and an extended payment period of up to 60 days for optimized financial management."
+            },
+            {
+                "question": "How can I be eligible for the CloudFret Fuel Offer?",
+                "answer": "Registration is simple and intuitive via the CloudFret app. Follow the instructions to strengthen your eligibility and join our network of transport partners."
+            },
+            {
+                "question": "How does the CloudFret Fuel Offer contribute to sustainability?",
+                "answer": "We actively support transporters in optimizing their resources, anchoring our efforts in a vision of sustainability and digital innovation."
+            },
+            {
+                "question": "Are there any fees associated with using the CloudFret Fuel Offer?",
+                "answer": "Obtaining the offer is free of charge. Our goal is to provide an accessible and advantageous solution for our transport partners, with no hidden costs."
+            },
+            {
+                "question": "In case of a problem or question, how can I contact support?",
+                "answer": "Our support team is available to assist you. You can contact us via our website or by phone at the number provided on our contact platform."
+            }
+        ]
+    }
 }

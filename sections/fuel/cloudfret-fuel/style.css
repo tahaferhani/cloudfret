@@ -1,0 +1,18 @@
+#cloudfret-fuel {
+    padding: var(--section-padding);
+
+    .text {
+        margin-top: 35px;
+        line-height: 1.8;
+    }
+
+    .text-image {
+        margin-top: 50px;
+        padding-top: 100px;
+        background: url("/images/fuel/fuel-cards.png") no-repeat center right/auto 100%;
+
+        .button {
+            margin-top: 80px;
+        }
+    }
+}

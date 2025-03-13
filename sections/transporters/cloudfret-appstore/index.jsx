@@ -4,14 +4,16 @@ import Button from '@/components/button';
 import "./style.css";
 import { Fade } from 'react-awesome-reveal';
 
-function CloudfretAppstore() {
+function CloudfretAppstore({ title }) {
   const t = useTranslations("Transporters");
 
   return (
     <section id="cloudfret-appstore">
       <div className="container">
         <Fade direction="up" triggerOnce cascade>
-          <Heading>Lancez-vous Maintenant!</Heading>
+          {
+            title || <Heading>Lancez-vous Maintenant!</Heading>
+          }
           <p className="subtitle">{t("N'attendez plus, téléchargez l'application et profitez d'offres exclusives")}</p>
         </Fade>
 

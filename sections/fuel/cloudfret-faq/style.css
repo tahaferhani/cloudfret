@@ -1,0 +1,21 @@
+#cloudfret-faq {
+    padding: var(--section-padding);
+
+    .items {
+        margin-top: 70px;
+    }
+
+    .item {
+        &:not(:last-child) {
+            margin-bottom: 35px;
+            padding-bottom: 35px;
+            border-bottom: 4px solid rgba(225, 238, 255, 0.57);
+        }
+
+        .question {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+    }
+}

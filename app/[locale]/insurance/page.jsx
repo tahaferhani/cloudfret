@@ -5,7 +5,7 @@ import CloudfretTransportersAdvantages from "@/sections/insurance/cloudfret-tran
 import CloudfretHero from "@/sections/layout/cloudfret-hero";
 import { useTranslations } from "next-intl";
 
-export default function TransportersPage() {
+const InsurancePage = () => {
   const t = useTranslations("Insurance");
 
   return (
@@ -26,3 +26,5 @@ export default function TransportersPage() {
     </div>
   );
 }
+
+export default InsurancePage;
