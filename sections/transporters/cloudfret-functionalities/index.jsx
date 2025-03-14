@@ -14,7 +14,7 @@ const CloudfretFunctionalities = () => {
           <Heading center highlightColor="color1">Des fonctionnalités conçues pour optimiser vos opérations</Heading>
         </Fade>
 
-        <div className="px-5">
+        <div className="px-xl-5">
           <div className="row">
             {
               functionalities.map((functionality, index) => (

@@ -16,7 +16,7 @@ function Cloudfretblog() {
           <Heading color="dark">Blog</Heading>
         </Fade>
         
-        <div className="row">
+        <div className="row gx-xl-5">
           {
             articles.map((article, index) => (
               <div key={index} className="col-md-6 col-lg-4">

@@ -18,10 +18,10 @@ function CloudfretBenefits() {
           <p className="text">{t("Cloudfret Green n'est pas seulement une solution de transport durable")}</p>
         </Fade>
 
-        <div className="row gx-5">
+        <div className="row gx-xl-5">
           {
             benefits.map((benefit, index) => (
-              <div key={index} className="col-4">
+              <div key={index} className="col-md-4">
                 <div className="benefit">
                   <img src={benefit.image} alt={benefit.text} />
                   <p>{parse(benefit.text)}</p>

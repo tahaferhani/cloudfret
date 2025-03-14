@@ -36,6 +36,17 @@ function CloudfretClients({ title }) {
           navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
+          breakpoints={{
+            0: {
+              slidesPerView: 3,
+            },
+            768: {
+              slidesPerView: 5,
+            },
+            992: {
+              slidesPerView: 7,
+            }
+          }}
         >
           {
             partners.map((partner, index) => (

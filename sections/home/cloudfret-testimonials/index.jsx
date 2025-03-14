@@ -26,6 +26,17 @@ function CloudfretTestimonials({ title }) {
           navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            992: {
+              slidesPerView: 3,
+            }
+          }}
         >
           {
             testimonials.map((testimonial, index) => (

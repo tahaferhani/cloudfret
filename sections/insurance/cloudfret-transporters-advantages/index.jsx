@@ -17,15 +17,15 @@ function CloudfretTransportersAdvantages() {
         </Fade>
 
         <div className="items">
-          <div className="row gx-5">
+          <div className="row gx-xl-5">
             {
               advantages.map((item, index) => (
                 item.image ?
-                <div key={index} className="col-4">
+                <div key={index} className="col-md-4">
                   <img className="image-only" src={item.image} alt="Transporters" />
                 </div>
                 :
-                <div key={index} className="col-4">
+                <div key={index} className="col-md-4">
                   <div className="advantage">
                     <div className="image">
                       <img src={item.icon} alt={item.text} />

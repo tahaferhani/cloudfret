@@ -11,7 +11,7 @@ const GreenPage = () => {
   const t = useTranslations("Green");
 
   return (
-    <div>
+    <main>
       <CloudfretHero
         backgroud="/images/green/hero.jpg"
         icon="/images/green/title-icon.svg"
@@ -24,7 +24,7 @@ const GreenPage = () => {
       <CloudfretBenefits/>
       <CloudfretPartners/>
       <CloudfretForm/>
-    </div>
+    </main>
   );
 }
 

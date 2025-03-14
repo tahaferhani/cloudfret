@@ -22,10 +22,10 @@ const SmartNetwork = () => {
 
       <div className="services">
         <div className="container">
-          <div className="row g-5">
+          <div className="row gx-xl-5">
             {
               services.map((service, index) => (
-                <div key={index} className="col-4">
+                <div key={index} className="col-lg-4">
                   <div className={`service ${service.color}`}>
                     <h3 className="service-title">{service.title}</h3>
                     <img className="service-image" src={service.image} alt={service.title} />

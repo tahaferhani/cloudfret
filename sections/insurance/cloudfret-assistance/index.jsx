@@ -16,10 +16,10 @@ function CloudfretAssistance() {
         </Fade>
 
         <div className="items">
-          <div className="row gx-5">
+          <div className="row gx-xl-5">
             {
               assistance.map((item, index) => (
-                <div key={index} className="col-4">
+                <div key={index} className="col-md-4">
                   <div className="assistance">
                     <div className="image">
                       <img src={item.icon} alt={item.text} />

@@ -30,6 +30,10 @@
         align-items: center;
         justify-content: center;
 
+        @media (max-width: 767px) {
+            width: 80%;
+        }
+
         &::before {
             content: '';
             position: absolute;

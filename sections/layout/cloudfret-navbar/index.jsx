@@ -72,6 +72,8 @@ const CloudfretNavbar = () => {
             onClick={switchLocale}
             src={`/images/flags/${ currentLocale == "fr" ? "gb" : "fr" }.svg`}
             alt={ currentLocale == "fr" ? "en" : "fr" } />
+
+          <img className="burger-menu" src="/images/icons/burger-menu.svg" alt="Burger menu" />
         </div>
       </nav>
     </header>

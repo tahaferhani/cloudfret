@@ -12,7 +12,7 @@ const SendersPage = () => {
   const t = useTranslations("Senders");
 
   return (
-    <div>
+    <main>
       <CloudfretHero
         backgroud="/images/senders/hero.jpg"
         icon="/images/senders/title-icon.svg"
@@ -29,7 +29,7 @@ const SendersPage = () => {
       <CloudfretRoutes/>
       <CloudfretAppstore/>
       <CloudfretTestimonials title={<Heading color="dark" highlightColor="color1" noShape secondaryFont>Retour d'expérience de nos partenaires Expéditeurs</Heading>}/>
-    </div>
+    </main>
   );
 }
 

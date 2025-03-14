@@ -24,31 +24,31 @@ function CloudfretForm() {
 
         <form>
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="text" placeholder={t("Nom et Prénom") + " *"} />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="text" placeholder={t("Nom de l'entreprise") + " *"} />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="text" placeholder={t("Ville") + " *"} />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="tel" placeholder={t("Téléphone") + " *"} />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="email" placeholder={t("Email")} />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="text" placeholder={t("Nombre de remorques") + " *"} />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="text" placeholder={t("Nombre de camions") + " *"} />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="text" placeholder={t("Compagnie d'assurance actuelle") + " *"} />
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <input type="date"/>
             </div>
           </div>

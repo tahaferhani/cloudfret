@@ -15,11 +15,29 @@
     .items {
         margin: 120px 0 100px;
         padding: 0 65px;
+
+        @media (max-width: 991px) {
+            padding: 0;
+        }
+
+        @media (max-width: 767px) {
+            margin-top: 150px;
+        }
     }
 
     .row {
         & > * {
             display: flex;
+
+            &:not(:first-child) {
+                .advantage {
+                    margin-top: 130px;
+                }
+
+                .image-only {
+                    margin-top: 50px;
+                }
+            }
 
             &:nth-child(1) {
                 .advantage {
@@ -39,6 +57,7 @@
         width: 100%;
         border-radius: 18px;
         margin-top: -80px;
+        object-fit: cover;
     }
 
     .advantage {
@@ -54,6 +73,10 @@
         box-shadow: 7px 7px 33px rgba(0, 0, 0, 0.08);
         display: flex;
         flex-direction: column;
+
+        @media (max-width: 767px) {
+            margin-bottom: 0;
+        }
 
         &::before {
             content: "";
@@ -76,7 +99,8 @@
             margin: -110px auto 10px;
 
             img {
-                max-width: 132px;
+                max-width: 75%;
+                max-height: 75%;
             }
         }
 

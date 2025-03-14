@@ -15,7 +15,7 @@ function CloudfretTrucks() {
         </Fade>
 
         <div className="row">
-          <div className="col-6">
+          <div className="col-md-6">
             <div className="trucks">
               <div className="truck">
                 <img src="/images/green/truck-1.png" alt="Volvo" />
@@ -27,7 +27,7 @@ function CloudfretTrucks() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-md-6 mt-5 mt-md-0">
             <p className="text">
               {
                 t.rich("Notre flotte 100% électrique est alimentée par des panneaux solaires", { b: text => <b>{text}</b> })

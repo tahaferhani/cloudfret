@@ -27,6 +27,10 @@
             align-items: center;
             gap: 40px;
 
+            @media (max-width: 768px) {
+                display: none;
+            }
+
             & > * {
                 position: relative;
                 cursor: pointer;
@@ -75,6 +79,7 @@
                         position: absolute;
                         z-index: 2;
                         top: calc(100% + 10px);
+                        right: 0;
                         padding: 20px;
                         background-color: var(--color-3-dark);
                         border-radius: 16px;
@@ -86,7 +91,7 @@
                             content: "";
                             position: absolute;
                             top: -16px;
-                            left: 30px;
+                            right: 30px;
                             width: 0;
                             height: 0;
                             border: 8px solid transparent;
@@ -131,6 +136,17 @@
             border-radius: 3px;
             overflow: hidden;
             object-fit: cover;
+        }
+
+        .burger-menu {
+            display: none;
+            height: 30px;
+            margin-left: 40px;
+            cursor: pointer;
+
+            @media (max-width: 768px) {
+                display: block;
+            }
         }
     }
 }

@@ -1,14 +1,6 @@
 #cloudfret-blog {
     padding: var(--section-padding);
 
-    .row {
-        margin: 0 -16px;
-
-        & > * {
-            padding: 0 16px;
-        }
-    }
-
     .article {
         margin-top: 40px;
         color: var(--text-color-dark);

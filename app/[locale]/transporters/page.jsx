@@ -12,7 +12,7 @@ const TransportersPage = () => {
   const t = useTranslations("Transporters");
 
   return (
-    <div>
+    <main>
       <CloudfretHero
         backgroud="/images/transporters/hero.jpg"
         icon="/images/transporters/title-icon.svg"
@@ -29,7 +29,7 @@ const TransportersPage = () => {
       <CloudfretRoutes/>
       <CloudfretAppstore/>
       <CloudfretTestimonials title={<Heading color="dark" highlightColor="color1" noShape secondaryFont>Retour d'expérience de nos partenaires transporteurs</Heading>}/>
-    </div>
+    </main>
   );
 }
 

@@ -23,8 +23,20 @@
   --section-padding: 100px 0;
 }
 
+@media (max-width: 767px) {
+  :root {
+    --section-padding: 60px 0;
+  }
+}
+
 html {
   font-size: 95%;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 85%;
+  }
 }
 
 body {
@@ -55,8 +67,41 @@ strong {
   font-weight: 700;
 }
 
+main {
+  width: 100%;
+  overflow: hidden;
+}
+
 .text-center {
   text-align: center;
+}
+
+.container {
+  max-width: 1150px;
+
+  @media (max-width: 767px) {
+    padding: 0 25px;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 100%;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 12px 18px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &::placeholder {
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 .mt-10 {
@@ -89,28 +134,4 @@ strong {
 
 .mb-40 {
   margin-bottom: 40px
-}
-
-.container {
-  max-width: 1150px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="date"] {
-  width: 100%;
-  font-family: inherit;
-  font-size: 18px;
-  padding: 12px 18px;
-  border: none;
-  outline: none;
-  border-radius: 40px;
-  margin-bottom: 30px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  &::placeholder {
-    opacity: 1;
-    color: rgba(0, 0, 0, 0.5);
-  }
 }

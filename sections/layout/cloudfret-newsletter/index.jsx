@@ -8,12 +8,12 @@ function CloudfretNewsletter() {
   return (
     <section id="cloudfret-newsletter">
       <div className="container">
-        <div className="row gx-5">
-          <div className="col-4">
+        <div className="row gx-xl-5">
+          <div className="col-md-4">
             <p className="text">{t("Abonnez-vous pour rester à l'écoute des nouvelles nouveautés")}</p>
           </div>
-          <div className="col-8">
-            <form>
+          <div className="col-md-8 mt-4 mt-md-0">
+            <form className="ml-md-5">
               <input type="email" placeholder={t("Entrez votre adresse email")} />
               <Button noArrow>{t("S'abonner")}</Button>
             </form>

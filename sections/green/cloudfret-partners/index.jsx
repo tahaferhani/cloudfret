@@ -18,7 +18,7 @@ function CloudfretPartners() {
         <div className="row">
           {
             partners.map((partner, index) => (
-              <div key={index} className="col-6">
+              <div key={index} className="col-md-6">
                 <div className="partner">
                   <img src={partner.image} alt={partner.text} />
                   <p>{parse(partner.text)}</p>

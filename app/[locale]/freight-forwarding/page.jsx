@@ -7,7 +7,7 @@ export default function TransportersPage() {
   const t = useTranslations("Freight-Forwarding");
 
   return (
-    <div>
+    <main>
       <CloudfretHero
         backgroud="/images/freight-forwarding/hero.jpg"
         icon="/images/freight-forwarding/title-icon.svg"
@@ -18,6 +18,6 @@ export default function TransportersPage() {
         buttonColor="color1" />
       <CloudfretAdvantages />
       <CloudfretBenefits/>
-    </div>
+    </main>
   );
 }

@@ -2,6 +2,15 @@
     padding: var(--section-padding);
     background-color: rgba(var(--color-1-rgb), 0.1);
 
+    @media (max-width: 767px) {
+        .row {    
+            & > * {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
     .functionality {
         position: relative;
         background: #FFFFFF;
@@ -12,6 +21,11 @@
         display: flex;
         flex-direction: column;
         margin-top: 70px;
+
+        @media (max-width: 767px) {
+            width: 80%;
+            margin-top: 50px;
+        }
 
         img {
             margin-top: 20px;

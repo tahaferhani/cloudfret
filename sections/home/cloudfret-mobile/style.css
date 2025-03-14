@@ -40,6 +40,10 @@
             right: -50px;
             width: 100%;
             max-width: 376px;
+
+            @media (max-width: 1250px) {
+                right: 0;
+            }
         }
     }
 
@@ -52,7 +56,10 @@
 
         .mobile-app-item {
             margin-top: 90px;
-            padding: 0 40px;
+            
+            @media (min-width: 992px) {
+                padding: 0 40px;
+            }
 
             &:nth-child(odd) {
                 .phone-image {

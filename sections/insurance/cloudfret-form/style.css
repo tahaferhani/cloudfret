@@ -20,8 +20,20 @@
         padding: 100px;
         margin-top: 50px;
 
+        @media (max-width: 991px) {
+            padding: 70px;
+        }
+
         .button-container {
             margin-top: 50px;
+        }
+
+        @media (max-width: 767px) {
+            padding: 80px 50px;
+
+            .button-container {
+                margin-top: 30px;
+            }
         }
     }
 }

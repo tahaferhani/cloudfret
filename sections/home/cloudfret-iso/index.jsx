@@ -14,7 +14,7 @@ function CloudfretIso() {
           <p className="subtitle">{t("CloudFret s'engage envers la qualité et l'amélioration continue")}</p>
         </Fade>
 
-        <div className="row justify-content-center gx-5">
+        <div className="row justify-content-center gx-xl-5">
           <div className="col-auto">
             <img src="/images/home/iso-1.png" alt="ISO" />
           </div>

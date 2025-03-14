@@ -17,13 +17,13 @@ function CloudfretMobile() {
             <Heading color="dark" highlightColor="white" center={false} secondaryFont>Cloudfret vous offre des solutions durables</Heading>
           </Fade>
           <div className="row">
-            <div className="col-8">
+            <div className="col-md-8">
               <Fade direction="up" triggerOnce cascade>
                 <p>{t("Notre mission :")}</p>
                 <Button full>{t("Passez au mode durable dès aujourd'hui")}</Button>
               </Fade>
             </div>
-            <div className="col-4">
+            <div className="col-md-4 mt-5 mt-md-0">
               <img className="image" src="/images/home/durable-solutions.png" alt="Illustration" />
             </div>
           </div>
@@ -38,11 +38,11 @@ function CloudfretMobile() {
           {
             data.map((item, index) => (
               <div key={index} className="mobile-app-item">
-                <div className="row gx-5">
-                  <div className={clsx("col-4", { "order-2": index % 2 === 0 })}>
+                <div className="row gx-xl-5">
+                  <div className={clsx("col-md-4 d-flex justify-content-center", { "order-md-2": index % 2 === 0 })}>
                     <img className="phone-image" src={item.image} alt="Illustration" />
                   </div>
-                  <div className="col-8">
+                  <div className="col-md-8 mt-5 mt-md-0">
                     <Heading color="dark" highlightColor={item.color} shapeLeft center={false} secondaryFont small>{item.title}</Heading>
                     {
                       item.subtitle &&

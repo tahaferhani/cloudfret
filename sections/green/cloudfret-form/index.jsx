@@ -15,7 +15,7 @@ function CloudfretForm() {
         </Fade>
 
         <div className="row g-0">
-            <div className="col-8">
+            <div className="col-md-8">
                 <form>
                     <input type="text" placeholder={t("Nom et prénom")} />
                     <input type="text" placeholder={t("Nom de l'entreprise")} />
@@ -24,7 +24,7 @@ function CloudfretForm() {
                     <Button noArrow>{t("Envoyer")}</Button>
                 </form>
             </div>
-            <div className="col-4">
+            <div className="col-md-4">
                 <img className="image" src="/images/green/form.png" alt="Green" />
             </div>
         </div>

@@ -8,8 +8,8 @@ function CloudfretFooter() {
     <>
       <footer id="cloudfret-footer">
         <div className="container">
-          <div className="row gx-5">
-            <div className="col-4">
+          <div className="row gx-xl-5">
+            <div className="col-md-5 col-lg-4">
               <img className="logo" src="/images/cloudfret-light.svg" alt="Cloudfret" />
               <p className="description">{t("Plateforme digitale de mise en relation entre expéditeurs et transporteurs de marchandises")}</p>
               <div className="title">{t("Suivez nous")}</div>
@@ -20,7 +20,7 @@ function CloudfretFooter() {
                 <a href="/"><img src="/images/icons/instagram.svg" alt="Instagram" /></a>
               </div>
             </div>
-            <div className="col-auto">
+            <div className="col-md-2 col-lg-auto">
               <h3 className="title">{t("Accès Rapide")}</h3>
               <div className="links">
                 <a href="/">Landing Page</a>
@@ -30,7 +30,7 @@ function CloudfretFooter() {
                 <a href="/">Integrations</a>
               </div>
             </div>
-            <div className="col-auto">
+            <div className="col-md-5 col-lg-auto">
               <h3 className="title">{t("Contact")}</h3>
               <div className="contact-infos">
                 <div className="info">

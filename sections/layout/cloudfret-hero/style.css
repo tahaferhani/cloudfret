@@ -66,6 +66,16 @@
         }
     }
 
+    @media (max-width: 767px) {
+        .title {
+            font-size: 36px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+        }
+    }
+
     .button {
         margin-top: 60px;
     }

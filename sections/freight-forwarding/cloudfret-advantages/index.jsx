@@ -21,10 +21,10 @@ function CloudfretAdvantages() {
         </Fade>
 
         <div className="items">
-          <div className="row gx-5">
+          <div className="row gx-xl-5">
             {
               advantages.map((advantage, index) => (
-                <div key={index} className="col-4">
+                <div key={index} className="col-md-4">
                   <div className="advantage">
                     <div className="advantage-top">
                       <div className="image">

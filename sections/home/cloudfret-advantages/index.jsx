@@ -15,10 +15,10 @@ const CloudfretAdvantages = () => {
           <h3 className="subtitle">{t("Grâce à une marketplace unique, flexible et à l'ère du digital")}</h3>
         </Fade>
 
-        <div className="row">
+        <div className="row gx-xl-5">
           {
             advantages.map((advantage, index) => (
-              <div key={index} className="col-md-6 col-lg-3">
+              <div key={index} className="col-6 col-lg-3">
                 <div className="advantage">
                   <img src={advantage.icon} alt={advantage.text} />
                   <p>{advantage.text}</p>

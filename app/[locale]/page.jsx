@@ -16,7 +16,7 @@ export default function Home({ params }) {
   }
 
   return (
-    <div>
+    <main>
       <CloudfretHomeHero />
       <CloudfretNetwork />
       <CloudfretAdvantages />
@@ -25,6 +25,6 @@ export default function Home({ params }) {
       <CloudfretTestimonials title={<Heading color="dark" highlightColor="color2" noShape secondaryFont>Ce que nos partenaires disent de Cloudfret</Heading>} />
       <CloudfretIso />
       <Cloudfretblog />
-    </div>
+    </main>
   );
 }

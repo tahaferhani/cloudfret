@@ -9,7 +9,7 @@ const InsurancePage = () => {
   const t = useTranslations("Insurance");
 
   return (
-    <div>
+    <main>
       <CloudfretHero
         backgroud="/images/insurance/hero.jpg"
         icon="/images/insurance/title-icon.svg"
@@ -23,7 +23,7 @@ const InsurancePage = () => {
       <CloudfretAssistance/>
       <CloudfretTransportersAdvantages/>
       <CloudfretForm/>
-    </div>
+    </main>
   );
 }
 

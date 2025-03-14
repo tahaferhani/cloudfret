@@ -11,7 +11,7 @@ const FuelPage = () => {
   const t = useTranslations("Fuel");
 
   return (
-    <div>
+    <main>
       <CloudfretHero
         backgroud="/images/fuel/hero.jpg"
         icon="/images/fuel/title-icon.svg"
@@ -23,7 +23,7 @@ const FuelPage = () => {
       <CloudfretSteps/>
       <CloudfretAppstore title={<Heading highlightColor="color1">L'offre Carburant CloudFret vous facilite la vie !</Heading>}/>
       <CloudfretFAQ/>
-    </div>
+    </main>
   );
 }
 
