@@ -21,7 +21,7 @@
             },
             {
                 "title": "Brokers",
-                "link": "#"
+                "link": "/brokers"
             },
             {
                 "title": "Services",
@@ -84,7 +84,10 @@
         "Pourquoi opter pour l'offre Carburant CloudFret?": "Why choose the CloudFret <mark>Fuel</mark> offer?",
         "Comment ça marche?": "How does it <mark>work</mark>?",
         "L'offre Carburant CloudFret vous facilite la vie !": "The CloudFret Fuel offer makes your life <mark>easier</mark>!",
-        "FAQ": "FAQ"
+        "FAQ": "FAQ",
+        "Passez facilement d'un compte chargeur à transporteur": "<mark>Easily switch</mark> from a shipper to a carrier account",
+        "Des fonctionnalités pensées pour vos besoins": "<mark>Features</mark> designed for your needs",
+        "Retour d'expérience de nos partenaires commissionnaires": "Feedback from our <mark>broker</mark> partners"
     },
     "Home": {
         "Simplifiez votre logistique": "Simplify your logistics with an innovative freight exchange. Reduce costs, eliminate empty trips, and quickly find reliable partners among a network of Moroccan and international carriers and shippers.",
@@ -419,7 +422,7 @@
                 "items": [
                     {
                         "text": "Instant notification as soon as a shipping offer matches your availability",
-                        "image": "/images/senders/phone-6.png"
+                        "image": "/images/senders/phone-7.png"
                     }
                 ],
                 "buttonText": "Never miss an opportunity again"
@@ -728,6 +731,140 @@
             {
                 "question": "In case of a problem or question, how can I contact support?",
                 "answer": "Our support team is available to assist you. You can contact us via our website or by phone at the number provided on our contact platform."
+            }
+        ]
+    },
+    "Brokers": {
+        "Commissionnaires": "Commissionnaires",
+        "Des camions pour vos chargements et des chargements pour vos camions en toute simplicité": "Trucks for your loads and loads for your trucks with ease",
+        "Rejoingez la communauté des commissionnaires": "Join the community of freight forwarders",
+        "Connectez-vous instantanément à un réseau de transporteurs": "Instantly connect to a network of transporters and shippers rigorously selected for their reliability and expertise. Whether you manage one-time or regular operations, Cloudfret offers you the ideal solution in just a few clicks",
+        "Changer de rôle en": "Switch role to",
+        "Transporteur": "Carrier",
+        "Chargeur": "Shipper",
+        "checklist": [
+            {
+                "title": "Shippers",
+                "image": "/images/brokers/carriers.jpg",
+                "color": "color1",
+                "items": [
+                    "+4000 Reliable transporters",
+                    "Instant quotes",
+                    "Total transparency",
+                    "24/7 customer service"
+                ],
+                "buttonText": "Discover available trucks"
+            },
+            {
+                "title": "Carriers",
+                "image": "/images/brokers/transporters.jpg",
+                "color": "color2",
+                "items": [
+                    "0 empty returns",
+                    "+800 Reliable shippers",
+                    "Simplicity and speed",
+                    "Guaranteed fast payment"
+                ],
+                "buttonText": "Discover available loads"
+            }
+        ],
+        "functionalities-list": [
+            {
+                "title": "Bidding",
+                "icon": "/images/brokers/bidding.svg",
+                "items": [
+                    {
+                        "title": "Find available trucks for your loads",
+                        "color": "color1",
+                        "items": [
+                            {
+                                "text": "Post your load offer in just a few clicks.",
+                                "image": "/images/brokers/phone-1.png"
+                            },
+                            {
+                                "text": "Receive proposals from reliable carriers in real time.",
+                                "image": "/images/brokers/phone-2.png"
+                            },
+                            {
+                                "text": "Negotiate and choose the carrier that best meets your needs.",
+                                "image": "/images/brokers/phone-3.png"
+                            }
+                        ],
+                        "buttonText": "Post your first offer now"
+                    },
+                    {
+                        "title": "Follow the same model, but this time, in a vertical manner.",
+                        "color": "color2",
+                        "items": [
+                            {
+                                "text": "Choose the load offer that suits you",
+                                "image": "/images/brokers/phone-4.png"
+                            },
+                            {
+                                "text": "Submit your price",
+                                "image": "/images/brokers/phone-5.png"
+                            },
+                            {
+                                "text": "Contact the client and take charge of the transport",
+                                "image": "/images/brokers/phone-6.png"
+                            }
+                        ],
+                        "buttonText": "Discover available load offers"
+                    }
+                ]
+            },
+            {
+                "title": "Truck Availability",
+                "icon": "/images/brokers/disponibility.svg",
+                "items": [
+                    {
+                        "title": "The ideal truck for your load in 2 clicks",
+                        "color": "color1",
+                        "items": [
+                            {
+                                "text": "Filter by city, truck type, and date to find the options that meet your needs.",
+                                "image": "/images/brokers/phone-7.png"
+                            },
+                            {
+                                "text": "Directly contact carriers to confirm availability and negotiate.",
+                                "image": "/images/brokers/phone-8.png"
+                            }
+                        ],
+                        "buttonText": "Find your ideal truck now"
+                    },
+                    {
+                        "title": "Load offers in just 2 steps",
+                        "color": "color2",
+                        "items": [
+                            {
+                                "text": "Choose the load offer that suits you",
+                                "image": "/images/brokers/phone-9.png"
+                            },
+                            {
+                                "text": "Submit your price",
+                                "image": "/images/brokers/phone-10.png"
+                            }
+                        ],
+                        "buttonText": "Start now"
+                    }
+                ]
+            },
+            {
+                "title": "Automatic Matching",
+                "subtitle": "Smart technology at your service",
+                "icon": "/images/brokers/matching.svg",
+                "horizontal": true,
+                "items": [
+                    {
+                        "text": "<b>Smart technology at your service:</b><br>Receive an instant notification as soon as a carrier matches your load requirements."
+                    },
+                    {
+                        "image": "/images/brokers/phone-11.png"
+                    },
+                    {
+                        "text": "<b>Smart technology at your service:</b><br>Receive an instant notification as soon as a shipper posts a load offer suited to your truck."
+                    }
+                ]
             }
         ]
     }

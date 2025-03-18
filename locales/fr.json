@@ -21,7 +21,7 @@
             },
             {
                 "title": "Commissionnaires",
-                "link": "#"
+                "link": "/brokers"
             },
             {
                 "title": "Services",
@@ -84,7 +84,10 @@
         "Pourquoi opter pour l'offre Carburant CloudFret?": "Pourquoi opter pour l'offre <mark>Carburant</mark> CloudFret?",
         "Comment ça marche?": "Comment ça <mark>marche</mark>?",
         "L'offre Carburant CloudFret vous facilite la vie !": "L'offre Carburant CloudFret vous <mark>facilite</mark> la vie !",
-        "FAQ": "FAQ"
+        "FAQ": "FAQ",
+        "Passez facilement d'un compte chargeur à transporteur": "<mark>Passez facilement</mark> d'un compte chargeur à transporteur",
+        "Des fonctionnalités pensées pour vos besoins": "Des <mark>fonctionnalités</mark> pensées pour vos besoins",
+        "Retour d'expérience de nos partenaires commissionnaires": "Retour d'expérience de nos partenaires <mark>commissionnaires</mark>"
     },
     "Home": {
         "Simplifiez votre logistique": "Simplifiez votre logistique grâce à une bourse de fret innovante. Réduisez vos coûts, éliminez les trajets à vide et trouvez rapidement des partenaires fiables parmi un réseau de transporteurs et chargeurs marocains et internationaux.",
@@ -96,9 +99,18 @@
                 "color": "color2",
                 "optionsTitle": "<mark>Minimisez l'inutilisé,</mark>Maximiser les revenus",
                 "options": [
-                    { "icon": "/images/home/network-1.svg", "text": "Réseau fiable de clients et de partenaires" },
-                    { "icon": "/images/home/network-2.svg", "text": "Paiements rapides et sécurisés" },
-                    { "icon": "/images/home/network-3.svg", "text": "Carburant à prix réduit et assurances sur-mesure à des tarifs imbattables" }
+                    {
+                        "icon": "/images/home/network-1.svg",
+                        "text": "Réseau fiable de clients et de partenaires"
+                    },
+                    {
+                        "icon": "/images/home/network-2.svg",
+                        "text": "Paiements rapides et sécurisés"
+                    },
+                    {
+                        "icon": "/images/home/network-3.svg",
+                        "text": "Carburant à prix réduit et assurances sur-mesure à des tarifs imbattables"
+                    }
                 ],
                 "buttonText": "Rejoignez le réseau des transporteurs",
                 "buttonLink": "/transporters"
@@ -109,9 +121,18 @@
                 "color": "color3",
                 "optionsTitle": "<mark>Plus d’opportunités,</mark>Moins de complications",
                 "options": [
-                    { "icon": "/images/home/network-1.svg", "text": "Un seul compte pour tout gérer" },
-                    { "icon": "/images/home/network-2.svg", "text": "Vaste réseau de clients et de partenaires fiables" },
-                    { "icon": "/images/home/network-3.svg", "text": "Vaste réseau de clients et de partenaires fiables" }
+                    {
+                        "icon": "/images/home/network-1.svg",
+                        "text": "Un seul compte pour tout gérer"
+                    },
+                    {
+                        "icon": "/images/home/network-2.svg",
+                        "text": "Vaste réseau de clients et de partenaires fiables"
+                    },
+                    {
+                        "icon": "/images/home/network-3.svg",
+                        "text": "Vaste réseau de clients et de partenaires fiables"
+                    }
                 ],
                 "buttonText": "Rejoignez le réseau des commissionnaires",
                 "buttonLink": "#"
@@ -122,9 +143,18 @@
                 "color": "color1",
                 "optionsTitle": "<mark>Plus de choix,</mark>Moins de soucis",
                 "options": [
-                    { "icon": "/images/home/network-4.svg", "text": "Accès à un réseau de plus de 4000 transporteurs et 16000 remorques" },
-                    { "icon": "/images/home/network-5.svg", "text": "Gestion des expéditions en temps réel" },
-                    { "icon": "/images/home/network-6.svg", "text": "Tarifs compétitifs" }
+                    {
+                        "icon": "/images/home/network-4.svg",
+                        "text": "Accès à un réseau de plus de 4000 transporteurs et 16000 remorques"
+                    },
+                    {
+                        "icon": "/images/home/network-5.svg",
+                        "text": "Gestion des expéditions en temps réel"
+                    },
+                    {
+                        "icon": "/images/home/network-6.svg",
+                        "text": "Tarifs compétitifs"
+                    }
                 ],
                 "buttonText": "Rejoignez le réseau des chargeurs",
                 "buttonLink": "/senders"
@@ -392,7 +422,7 @@
                 "items": [
                     {
                         "text": "Une notification instantanée dès qu'une offre de chargement correspond à vos disponibilités",
-                        "image": "/images/senders/phone-6.png"
+                        "image": "/images/senders/phone-7.png"
                     }
                 ],
                 "buttonText": "Ne manquez plus jamais une opportunité"
@@ -412,7 +442,9 @@
                 "type": "Pièces auto",
                 "weight": "20000 kg",
                 "loadingData": "2024-12-01",
-                "trailers": ["Frigorifique"]
+                "trailers": [
+                    "Frigorifique"
+                ]
             },
             {
                 "date": "Il y a 2 heures",
@@ -423,7 +455,10 @@
                 "type": "Automotive",
                 "weight": "14000 kg",
                 "loadingData": "2024-12-01",
-                "trailers": ["Baché", "Méga Baché"]
+                "trailers": [
+                    "Baché",
+                    "Méga Baché"
+                ]
             },
             {
                 "date": "Il y a 3 heures",
@@ -434,7 +469,9 @@
                 "type": "Viandes",
                 "weight": "20000 kg",
                 "loadingData": "2024-12-01",
-                "trailers": ["Frigorifique"]
+                "trailers": [
+                    "Frigorifique"
+                ]
             },
             {
                 "date": "Il y a 4 heures",
@@ -445,7 +482,9 @@
                 "type": "Pièces auto",
                 "weight": "20000 kg",
                 "loadingData": "2024-12-01",
-                "trailers": ["Frigorifique"]
+                "trailers": [
+                    "Frigorifique"
+                ]
             }
         ],
         "Date de chargement": "Date de chargement",
@@ -692,6 +731,140 @@
             {
                 "question": "En cas de problème ou de question, comment puis-je contacter le support ?",
                 "answer": "Notre équipe de support est disponible pour vous assister. Vous pouvez nous contacter via notre site web, ou par téléphone au numéro fourni sur notre plateforme de contact."
+            }
+        ]
+    },
+    "Brokers": {
+        "Commissionnaires": "Commissionnaires",
+        "Des camions pour vos chargements et des chargements pour vos camions en toute simplicité": "Des camions pour vos chargements et des chargements pour vos camions en toute simplicité",
+        "Rejoingez la communauté des commissionnaires": "Rejoingez la communauté des commissionnaires",
+        "Connectez-vous instantanément à un réseau de transporteurs": "Connectez-vous instantanément à un réseau de transporteurs et d’expéditeurs rigoureusement sélectionnés pour leur fiabilité et leur expertise. Que vous gériez des opérations ponctuelles ou régulières, Cloudfret vous offre la solution idéale en quelques clics",
+        "Changer de rôle en": "Changer de rôle en",
+        "Transporteur": "Transporteur",
+        "Chargeur": "Chargeur",
+        "checklist": [
+            {
+                "title": "Chargeurs",
+                "image": "/images/brokers/carriers.jpg",
+                "color": "color1",
+                "items": [
+                    "+4000 Transporteurs fiables",
+                    "Devis instantanés",
+                    "Transparence totale",
+                    "Service client 24h/7"
+                ],
+                "buttonText": "Découvrez les camions disponibles "
+            },
+            {
+                "title": "Transporteurs",
+                "image": "/images/brokers/transporters.jpg",
+                "color": "color2",
+                "items": [
+                    "0 retours à vide",
+                    "+800 chargeurs fiables",
+                    "Simplicité et Rapidité",
+                    "Paiement rapide garanti"
+                ],
+                "buttonText": "Découvrez les chargements disponibles"
+            }
+        ],
+        "functionalities-list": [
+            {
+                "title": "Bidding",
+                "icon": "/images/brokers/bidding.svg",
+                "items": [
+                    {
+                        "title": "Trouver des camions disponibles pour vos chargements",
+                        "color": "color1",
+                        "items": [
+                            {
+                                "text": "Publiez votre offre de chargement en quelques clics.",
+                                "image": "/images/brokers/phone-1.png"
+                            },
+                            {
+                                "text": "Recevez des propositions de transporteurs fiables en temps réel.",
+                                "image": "/images/brokers/phone-2.png"
+                            },
+                            {
+                                "text": "Négociez et choisissez le transporteur qui répond le mieux à vos besoins.",
+                                "image": "/images/brokers/phone-3.png"
+                            }
+                        ],
+                        "buttonText": "Publiez votre première offre maintenant"
+                    },
+                    {
+                        "title": "Suivre ce meme modele, mais cette fois, de maniere verticale.",
+                        "color": "color2",
+                        "items": [
+                            {
+                                "text": "Choisissez l’offre de chargement qui vous convient",
+                                "image": "/images/brokers/phone-4.png"
+                            },
+                            {
+                                "text": "Proposez votre prix",
+                                "image": "/images/brokers/phone-5.png"
+                            },
+                            {
+                                "text": "Contactez le client et prenez en charge le transport",
+                                "image": "/images/brokers/phone-6.png"
+                            }
+                        ],
+                        "buttonText": "Découvrez les offres de chargement"
+                    }
+                ]
+            },
+            {
+                "title": "Disponibilité des camions",
+                "icon": "/images/brokers/disponibility.svg",
+                "items": [
+                    {
+                        "title": "Le camion idéal pour votre chargement en 2 clics",
+                        "color": "color1",
+                        "items": [
+                            {
+                                "text": "Filtrez par ville, type de camion et date pour trouver les options qui répondent à vos besoins.",
+                                "image": "/images/brokers/phone-7.png"
+                            },
+                            {
+                                "text": "Contactez directement les transporteurs pour confirmer la disponibilité et négocier.",
+                                "image": "/images/brokers/phone-8.png"
+                            }
+                        ],
+                        "buttonText": "Trouvez votre camion idéal maintenant"
+                    },
+                    {
+                        "title": "Des offres de chargement en seulement 2 étapes",
+                        "color": "color2",
+                        "items": [
+                            {
+                                "text": "Choisissez l’offre de chargement qui vous convient",
+                                "image": "/images/brokers/phone-9.png"
+                            },
+                            {
+                                "text": "Proposez votre prix",
+                                "image": "/images/brokers/phone-10.png"
+                            }
+                        ],
+                        "buttonText": "Commencez maintenant"
+                    }
+                ]
+            },
+            {
+                "title": "Matching Automatique",
+                "subtitle": "Technologie intelligente à votre disposition",
+                "icon": "/images/brokers/matching.svg",
+                "horizontal": true,
+                "items": [
+                    {
+                        "text": "<b>La technologie intelligente à votre service :</b><br>Recevez une notification instantanée dès qu'un transporteur correspond à vos besoins de chargement"
+                    },
+                    {
+                        "image": "/images/brokers/phone-11.png"
+                    },
+                    {
+                        "text": "<b>La technologie intelligente à votre service :</b><br>Recevez une notification instantanée dès qu'un chargeur propose une offre de chargement adaptée à votre camion."
+                    }
+                ]
             }
         ]
     }

@@ -1,6 +1,10 @@
 #cloudfret-testimonials {
     padding: var(--section-padding);
 
+    &.light-bg {
+        background-color: #f5f5f5;
+    }
+
     .swiper {
         padding: 60px 40px;
 

@@ -27,8 +27,8 @@ const SendersPage = () => {
       <CloudfretFunctionalities/>
       <CloudfretMobile/>
       <CloudfretRoutes/>
-      <CloudfretAppstore/>
       <CloudfretTestimonials title={<Heading color="dark" highlightColor="color1" noShape secondaryFont>Retour d'expérience de nos partenaires Expéditeurs</Heading>}/>
+      <CloudfretAppstore style2 />
     </main>
   );
 }

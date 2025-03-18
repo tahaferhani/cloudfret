@@ -7,13 +7,14 @@ import 'swiper/css/pagination';
 import "./style.css";
 import { useTranslations } from "next-intl";
 import { Fade } from "react-awesome-reveal";
+import clsx from "clsx";
 
-function CloudfretTestimonials({ title }) {
+function CloudfretTestimonials({ title, lightBg }) {
   const t = useTranslations("Testimonials");
   const testimonials = t.raw("testimonials-list");
 
   return (
-    <section id="cloudfret-testimonials">
+    <section id="cloudfret-testimonials" className={clsx({ "light-bg": lightBg })}>
       <div className="container">
         <Fade direction="up" triggerOnce cascade>
           {title}

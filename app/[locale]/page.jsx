@@ -10,8 +10,10 @@ import CloudfretHomeHero from "@/sections/home/cloudfret-home-hero";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 
-export default function Home({ params }) {
-  if (!routing.locales.includes(params.locale)) {
+export default async function Home({ params }) {
+  const { locale } = await params;
+
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
 

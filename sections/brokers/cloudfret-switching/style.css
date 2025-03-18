@@ -1,0 +1,86 @@
+#cloudfret-switching {
+    padding: var(--section-padding);
+
+    .subtitle {
+        color: var(--text-color-light);
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .two-arrows {
+        display: table;
+        margin: 24px auto;
+    }
+
+    .checklist {
+        position: relative;
+        z-index: -1;
+        padding-top: 10px;
+        margin-top: -10px;
+        background: linear-gradient(180deg, rgba(var(--color-1-rgb), .2), transparent);
+
+        &.color2 {
+            background: linear-gradient(180deg, rgba(var(--color-2-rgb), .2), transparent);
+        }
+
+        .image-container {
+            position: relative;
+            aspect-ratio: 2/1;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
+
+        .title {
+            position: absolute;
+            top: 14px;
+            right: 30px;
+            font-size: 26px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .items {
+            font-size: 26px;
+            font-weight: 600;
+            color: var(--text-color-light);
+            padding: 40px 34px 0;
+            margin-bottom: 20px;
+            
+            li {
+                display: flex;
+                gap: 12px;
+                margin-bottom: 12px;
+                list-style: none;
+
+                &::before {
+                    content: "";
+                    width: 43px;
+                    height: 38px;
+                    background: url(/images/icons/check.svg) no-repeat center/100% 100%;
+                }
+            }
+        }
+
+        &::before,
+        .items::after {
+            content: "";
+            display: block;
+            height: 75px;
+            width: 100%;
+            background: url("/images/brokers/arrow-1.svg") no-repeat center/auto 75%;
+        }
+
+        &.color2 {
+            &::before,
+            .items::after {
+                background-image: url("/images/brokers/arrow-2.svg");
+            }
+        }
+    }
+}
