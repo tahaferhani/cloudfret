@@ -11,8 +11,22 @@
         padding-top: 100px;
         background: url("/images/fuel/fuel-cards.png") no-repeat center right/auto 100%;
 
+        @media (max-width: 991px) {
+            background-size: auto 70%;
+        }
+
+        @media (max-width: 767px) {
+            padding-top: 450px;
+            background-size: auto 400px;
+            background-position: top right;
+        }
+
         .button {
             margin-top: 80px;
+
+            @media (max-width: 767px) {
+                margin-top: 50px;
+            }
         }
     }
 }

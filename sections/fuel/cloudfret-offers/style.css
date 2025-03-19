@@ -9,6 +9,11 @@
         margin-top: 80px;
         padding: 0 50px;
         counter-reset: offer;
+
+        @media (max-width: 767px) {
+            padding: 0;
+            margin-top: 60px;
+        }
     }
 
     .offer {
@@ -151,6 +156,46 @@
 
             img {
                 width: 100%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+            gap: 20px;
+
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+
+            .icon {
+                top: 0 !important;
+                max-width: 130px;
+            }
+
+            .line {
+                transform: rotate(90deg) scaleY(-1);
+                right: 4%;
+                top: 30%;
+                width: 120px !important;
+                left: auto;
+            }
+
+            .card {
+                width: 100%;
+                margin: 0 !important;
+
+                &::before {
+                    font-size: 60px;
+                    bottom: 12%;
+                }
+
+                .title {
+                    font-size: 24px;
+                }
+
+                .description {
+                    font-size: 18px;
+                }
             }
         }
     }

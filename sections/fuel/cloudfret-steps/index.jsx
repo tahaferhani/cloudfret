@@ -21,7 +21,7 @@ function CloudfretSteps() {
             steps.map((step, index) => (
               <div key={index} className="step">
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-md-6">
                     <div className="content">
                       <h3 className="title">{step.title}</h3>
                       <p>{parse(step.description)}</p>
@@ -32,7 +32,7 @@ function CloudfretSteps() {
                       }
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-md-6 mt-5 mt-md-0">
                     <div className="image">
                       <img src={step.image} alt={step.title} />
                     </div>

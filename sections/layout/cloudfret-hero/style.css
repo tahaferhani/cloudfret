@@ -69,6 +69,13 @@
     @media (max-width: 767px) {
         .title {
             font-size: 36px;
+            max-width: 100%;
+            word-break: break-word;
+            hyphens: auto;
+
+            img {
+                max-height: 50px;
+            }
         }
 
         .subtitle {

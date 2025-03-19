@@ -26,7 +26,7 @@ function CloudfretSwiching() {
         <div className="row">
           {
             checklist.map((item, index) => (
-              <div key={index} className="col-sm-6">
+              <div key={index} className={clsx("col-md-6", { "mt-5 mt-md-0": index })}>
                 <Switchers right={index % 2 == 0} />
                 <div className={clsx("checklist", item.color)}>
                   <div className="image-container">

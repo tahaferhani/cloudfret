@@ -20,7 +20,7 @@ function CloudfretFuel() {
       <div className="text-image">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7">
+            <div className="col-md-7">
               <Fade direction="up" triggerOnce>
                 <Heading center={false} highlightColor="color1">Qui peut bénéficier de l'offre Carburant CloudFret ?</Heading>
               </Fade>

@@ -39,15 +39,15 @@ function CloudfretFunctionalities() {
               <img className="two-arrows" src="/images/brokers/two-arrows.svg" alt="Two arrows" />
 
               <div className="row">
-                <div className="col-sm-6">
+                <div className="col-md-6 order-md-1 order-1">
                   <Switchers right />
                 </div>
-                <div className="col-sm-6">
+                <div className="col-md-6 order-md-2 order-3 mt-5 mt-md-0">
                   <Switchers />
                 </div>
                 {
                   !functionality.horizontal && functionality.items.map((item, index) => (
-                    <div key={index} className="col-sm-6 d-flex flex-column">
+                    <div key={index} className={`col-md-6 order-md-3 order-${index + 2} d-flex flex-column`}>
                       <div className={clsx("items", item.color)}>
                         <h4 className="title">{item.title}</h4>
                         {
@@ -70,7 +70,7 @@ function CloudfretFunctionalities() {
 
                 {
                   functionality.horizontal && functionality.items.map((item, index) => (
-                    <div key={index} className="col-sm-4">
+                    <div key={index} className={`col-md-4 order-md-3 order-${item.image ? 'last' : index + 2}`}>
                       <div className={clsx("horizontal-item", { text: item.text, image: item.image })}>
                         {
                           item.text && (
